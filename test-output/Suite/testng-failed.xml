@@ -5,11 +5,16 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="urlfb" value="https://www.facebook.com"/>
     <classes>
-      <class name="test.EdurekaLogin">
+      <class name="test.Flipkart">
         <methods>
-          <include name="Edureka"/>
+          <include name="software"/>
         </methods>
-      </class> <!-- test.EdurekaLogin -->
+      </class> <!-- test.Flipkart -->
+      <class name="test.Exa_Checkbox">
+        <methods>
+          <include name="Testcheckbox"/>
+        </methods>
+      </class> <!-- test.Exa_Checkbox -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

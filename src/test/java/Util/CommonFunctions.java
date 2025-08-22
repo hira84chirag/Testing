@@ -132,44 +132,22 @@ public class CommonFunctions {
 
 		}
 
-	public static void scrollpageamazon(WebDriver driver) throws InterruptedException {
+	
+	public static void scrollpage(WebDriver driver, String xpath) throws InterruptedException {
 		// Scroll by Pixels
         JavascriptExecutor js = (JavascriptExecutor) driver;
         // Scroll to a specific element (like Footer or any section)
-        WebElement footer = driver.findElement(By.id("navFooter"));
-        js.executeScript("arguments[0].scrollIntoView(true);", footer);
-        Thread.sleep(1000);
-//	    Scroll up to top of the page
-        for (int i = 0; i <= 10000; i += 400) {
-            js.executeScript("window.scrollTo(0, document.body.scrollHeight - " + i + ");");
-            Thread.sleep(400);  // Adjust speed
-        }
-				/*
-				         js.executeScript("window.scrollBy(0, 1500)"); // Scroll down by 1000 pixels
-				        js.executeScript("window.scrollBy(1500, 2500)");
-				        CommonFunctions.waitImplicit(driver,1000);
-				        // Scroll to Bottom of Page
-				        js.executeScript("window.scrollTo(2500, document.body.scrollHeight)");
-				        CommonFunctions.waitImplicit(driver,2000);
-				 
-				 */
-
-	}
-	public static void scrollpage(WebDriver driver, int last) throws InterruptedException {
-		// Scroll by Pixels
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        // Scroll to a specific element (like Footer or any section)
-        WebElement footer = driver.findElement(By.id("contents"));
+        WebElement footer = driver.findElement(By.xpath(xpath));
         js.executeScript("arguments[0].scrollIntoView(true);", footer);
       //  Thread.sleep(2000);
         int j=0;
-       // js.executeScript("window.scrollBy(700, 1500)");
+        js.executeScript("window.scrollBy(700, 1500)");
 
-        for (int i = 600; j <= last; i += 500) {
-        	j=i+600;
-            js.executeScript("window.scrollBy(" +i+"," + j + ");");
-            Thread.sleep(7000);  // Adjust speed
-        }  
+		/*
+		 * for (int i = 200; j <= last; i += 100) { j=i+100;
+		 * js.executeScript("window.scrollBy(" +i+"," + j + ");"); Thread.sleep(1000);
+		 * // Adjust speed }
+		 */ 
 	}
 	public static void getText(WebDriver driver, String str) {
 		WebElement eleText=driver.findElement(By.xpath(str));

@@ -10,17 +10,17 @@ import org.testng.annotations.DataProvider;
 public class DataProviderTest {
   @Test (dataProvider = "dp")
   
-  public void validLogin(String uname,String Password) {		
-		Reporter.log("Username ="+  uname);
-		Reporter.log("Passowrd =" + Password); 		
+  public void validLogin(String brwowser,String url) {		
+		Reporter.log("Browser ="+  brwowser);
+		Reporter.log("Passowrd =" + url); 		
 		
 	}
 
   @DataProvider  
   public String[][] dp() {
     return new String[][] {
-      new String[] { "1", "chnirag" },
-      new String[] { "2", "patel" },
+      new String[] { "chrome", "https://www.facebook.com" },
+//      new String[] { "urlfb", "url" },    
     };
   }
 }

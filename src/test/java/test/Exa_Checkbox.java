@@ -6,21 +6,28 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
+
+import Util.CommonFunctions;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Exa_Checkbox {
+public class Exa_Checkbox extends BaseTest {
 	@Test
-public  void Testcheckbox() throws InterruptedException {
+public  void Testcheckbox()  throws InterruptedException {
+		Exa_Checkbox obj=new Exa_Checkbox();
 	
-	WebDriver driver=new FirefoxDriver();
-	
-	driver.get("https://demoqa.com/checkbox");
+		//	WebDriver driver=new FirefoxDriver();
+	obj.setupBrowser("chrome", "https://demoqa.com/checkbox");
 	String path="//button[@aria-label='Toggle']";
+	CommonFunctions.scrollpage(driver,"//div[@id='Ad.Plus-970x250-2']");
 	WebElement chkpath=driver.findElement(By.xpath(path));
 	chkpath.click();
 	List<WebElement> w = chkpath.findElements(By.xpath("//span[@class='rct-checkbox']"));
 	System.out.print("Total=" + w.size());
+	// Scroll the page here
+	
+	
 	for(int i=0;i<w.size()-1;i++){
 			Thread.sleep(300);
 		 if (i<1)	w.get(i).click();

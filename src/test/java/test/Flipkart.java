@@ -1,4 +1,5 @@
 package test;
+import java.time.Duration;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -7,38 +8,31 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 import Util.CommonFunctions;
-import java.net.HttpURLConnection;
-import java.net.URI;
-import java.time.Duration;
 
 public class Flipkart extends BaseTest{
 	public WebDriver driver;
 	
-	@Test
+	@Test()
 	public void software() throws InterruptedException  {
 		// TODO Auto-generated method stub
-		String path="";
-		
-		Flipkart obj = new Flipkart();
-		obj.setupBrowser("chrome", "https://www.flipkart.com/?");
-		//ChromeDriver driver=new ChromeDriver();
-
-		driver.manage().deleteAllCookies();		
-		driver.navigate().to("https://www.flipkart.com/?");
+		String path="";		
+		/*
+		 * Flipkart obj = new Flipkart(); obj.setupBrowser("chrome",
+		 * "https://www.flipkart.com/?");
+		 */
+		  ChromeDriver driver=new ChromeDriver();
+			driver.navigate().to("https://www.flipkart.com/?");
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(600));
 		driver.manage().window().maximize();
-		CommonFunctions.waitImplicit(driver,200);
 
-		
 		String xpath= "//span[@class='_1XjE3T']";
+		
 //		String xpath= "//div[@class='_3sdu8W emupdz']/a";
 		int i=0;
 		List<WebElement> seeofferchild=driver.findElements(By.xpath(xpath)); 	
 		
 		for (WebElement element : seeofferchild) {
 			WebElement pElement = element.findElement(By.tagName("span"));
-			 
-		//	String sp=pElement.getText();
-		//	System.out.println(sp);
 			
 			  String linkText = pElement.getAttribute("innerText"); 
 			  String href = pElement.getAttribute("href"); // element.getAttribute("value");
