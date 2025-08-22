@@ -1,6 +1,7 @@
 package Util;
 
 import java.awt.AWTException;
+
 import java.awt.Rectangle;
 import java.awt.Robot;
 import java.awt.Toolkit;
@@ -24,7 +25,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 public class CommonFunctions {
-	
+	WebDriver driver;
+	public CommonFunctions(WebDriver driver) {
+		this.driver=driver;	
+	}
 	public static void ClickonElement(WebDriver driver, WebElement e){
  		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(120));
 		wait.until(ExpectedConditions.visibilityOf(e));
