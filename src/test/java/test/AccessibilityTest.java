@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import java.io.FileNotFoundException;
 import java.net.URL;
+import java.time.Duration;
 import java.util.List;
 
 public class AccessibilityTest extends BaseTest {
@@ -19,13 +20,14 @@ public class AccessibilityTest extends BaseTest {
 
         // Step 1: Initialize WebDriver
     	AccessibilityTest obj= new AccessibilityTest();
-    	obj.setupBrowser("chrome", "https://www.atkinsrealis.com/en/about");
+    	obj.setupBrowser("chrome", "https://www.atkinsrealis.com/en/markets-and-services");
 //        WebDriver driver = new ChromeDriver();
 
         try {
             // Step 2: Open a webpage
   //          driver.get("https://www.atkinsrealis.com/en/about");
             driver.manage().window().maximize();
+        	driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(1000));
             String acceptbtn="//button[contains(text(),'Accept all cookies')]";
             driver.findElement(By.xpath(acceptbtn));
             Thread.sleep(2000);

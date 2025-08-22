@@ -5,12 +5,11 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="urlfb" value="https://www.facebook.com"/>
     <classes>
-      <class name="test.CountCountry">
+      <class name="test.EdurekaLogin">
         <methods>
-          <include name="FaceBookServiceDirectory"/>
-          <include name="openBro"/>
+          <include name="Edureka"/>
         </methods>
-      </class> <!-- test.CountCountry -->
+      </class> <!-- test.EdurekaLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

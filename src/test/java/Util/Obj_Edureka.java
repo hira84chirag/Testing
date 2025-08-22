@@ -47,17 +47,19 @@ public class Obj_Edureka {
 		PageFactory.initElements(driver, this);
 		}
 	public void clickHomepageLogin() {
-    //    wait.until(ExpectedConditions.elementToBeClickable(HomePageLogin1)).click();
-		
-        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(300));
-	//	wait.until(ExpectedConditions.visibilityOf(HomePageLogin1));
-	//	wait.until(ExpectedConditions.elementToBeClickable(HomePageLogin1)).click();    
-        HomePageLogin1.click();
+    //    wait.until(ExpectedConditions.elementToBeClickable(HomePageLogin1)).click();		
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(800));
+ 		wait.until(ExpectedConditions.visibilityOfElementLocated(HomePageLogin));
+        //  HomePageLogin1.click();
 	}
 
 	public void clickLoginbtn() {
-//        wait.until(ExpectedConditions.elementToBeClickable(Loginbtn)).click();
-        Loginbtn1.click();
+		String xpath=	"//button[starts-with(text(),'Log')]";
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(300));		  
+	//	WebElement elewait=wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(xpath)));			
+	//	elewait.click();
+		
+      Loginbtn1.click();
 	}
 
 	public void getLoginValue() {

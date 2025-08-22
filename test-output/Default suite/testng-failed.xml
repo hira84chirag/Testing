@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.StaleElement_Exp">
+      <class name="test.EdurekaLogin">
         <methods>
-          <include name="waitExample"/>
+          <include name="Edureka"/>
         </methods>
-      </class> <!-- test.StaleElement_Exp -->
+      </class> <!-- test.EdurekaLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
