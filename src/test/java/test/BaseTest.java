@@ -5,12 +5,18 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 
 public class BaseTest {
 	
 	static WebDriver driver;
+	String browser="chrome", url="";
 	
-	public void setupBrowser(String browser, String url) {
+	@BeforeClass
+	public void setUp() {
 		
 		if(browser.equalsIgnoreCase("chrome")) 
 			{
@@ -21,7 +27,8 @@ public class BaseTest {
 			options.addArguments("--disable-extensions");
 	        options.addArguments("--incognito");
 			driver = new ChromeDriver(options);
-
+			driver.get("http://www.google.com/");
+			System.out.println("Browser launched and navigated to site");
 			}
 		else if(browser.equalsIgnoreCase("firefox"))
 			driver = new FirefoxDriver();
@@ -45,10 +52,20 @@ public class BaseTest {
 	public void navigatetourl(String url) {
 		driver.get(url);
 	}
+	
 	public void quit() {
 		driver.quit();
 	}
 
+	@AfterClass
+	 public void tearDown() {
+	        if (driver != null) {
+	            driver.quit();
+	            System.out.println("Browser closed");
+	        }
+	  }
+	
+	
 }
 
 

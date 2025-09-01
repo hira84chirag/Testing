@@ -10,18 +10,12 @@ import org.testng.annotations.Test;
 import Util.CommonFunctions;
 
 public class Flipkart extends BaseTest{
-	public WebDriver driver;
 	
 	@Test()
 	public void software() throws InterruptedException  {
 		// TODO Auto-generated method stub
 		String path="";		
-		/*
-		 * Flipkart obj = new Flipkart(); obj.setupBrowser("chrome",
-		 * "https://www.flipkart.com/?");
-		 */
-		  ChromeDriver driver=new ChromeDriver();
-			driver.navigate().to("https://www.flipkart.com/?");
+		driver.get("https://www.flipkart.com/?");
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(600));
 		driver.manage().window().maximize();
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Accessibility Violations:]]>
@@ -33,54 +33,6 @@
     </line>
     <line>
       <![CDATA[ - [.logo-white]]]>
-    </line>
-    <line>
-      <![CDATA[Violation ID: color-contrast]]>
-    </line>
-    <line>
-      <![CDATA[Description: Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds]]>
-    </line>
-    <line>
-      <![CDATA[Impact: serious]]>
-    </line>
-    <line>
-      <![CDATA[Elements:]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #Snapshot2]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #price]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #Instrument1]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #SnapshotDifference2 > .negative]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #SnapshotDifference1 > .negative]]]>
-    </line>
-    <line>
-      <![CDATA[Violation ID: definition-list]]>
-    </line>
-    <line>
-      <![CDATA[Description: Ensures <dl> elements are structured correctly]]>
-    </line>
-    <line>
-      <![CDATA[Impact: serious]]>
-    </line>
-    <line>
-      <![CDATA[Elements:]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, .datetime]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, .price]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, .change_value_percentage]]]>
     </line>
     <line>
       <![CDATA[Violation ID: duplicate-id]]>
@@ -273,36 +225,6 @@
     </line>
     <line>
       <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(4) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
-    </line>
-    <line>
-      <![CDATA[Violation ID: meta-viewport]]>
-    </line>
-    <line>
-      <![CDATA[Description: Ensures <meta name="viewport"> does not disable text scaling and zooming]]>
-    </line>
-    <line>
-      <![CDATA[Impact: critical]]>
-    </line>
-    <line>
-      <![CDATA[Elements:]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, meta[name="viewport"]]]]>
-    </line>
-    <line>
-      <![CDATA[Violation ID: region]]>
-    </line>
-    <line>
-      <![CDATA[Description: Ensures all page content is contained by landmarks]]>
-    </line>
-    <line>
-      <![CDATA[Impact: moderate]]>
-    </line>
-    <line>
-      <![CDATA[Elements:]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, .snapData]]]>
     </line>
     <line>
       <![CDATA[Violation ID: role-img-alt]]>
@@ -974,34 +896,16 @@
       <![CDATA[button name = Log In]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-08-22T17:38:11 IST" name="Suite" finished-at="2025-08-22T17:39:20 IST" duration-ms="69314">
+  <suite started-at="2025-09-01T18:16:04 IST" name="Suite" finished-at="2025-09-01T18:17:28 IST" duration-ms="84420">
     <groups>
     </groups>
-    <test started-at="2025-08-22T17:38:11 IST" name="Test" finished-at="2025-08-22T17:39:20 IST" duration-ms="69314">
-      <class name="test.BaseBrowser">
-        <test-method is-config="true" signature="beforetest(java.lang.String,java.lang.String)[pri:0, instance:test.BaseBrowser@102cec62]" started-at="2025-08-22T17:38:11 IST" name="beforetest" finished-at="2025-08-22T17:38:14 IST" duration-ms="3362" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.facebook.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method is-config="true" signature="quiteBrowser()[pri:0, instance:test.BaseBrowser@102cec62]" started-at="2025-08-22T17:39:20 IST" name="quiteBrowser" finished-at="2025-08-22T17:39:20 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- quiteBrowser -->
-      </class> <!-- test.BaseBrowser -->
+    <test started-at="2025-09-01T18:16:04 IST" name="Test" finished-at="2025-09-01T18:17:28 IST" duration-ms="84420">
       <class name="test.RediffValidation">
-        <test-method signature="Redfflogin()[pri:0, instance:test.RediffValidation@791d1f8b]" started-at="2025-08-22T17:39:13 IST" name="Redfflogin" finished-at="2025-08-22T17:39:20 IST" duration-ms="6717" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RediffValidation@24c22fe]" started-at="2025-09-01T18:16:58 IST" name="setUp" finished-at="2025-09-01T18:17:01 IST" duration-ms="2575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Redfflogin()[pri:0, instance:test.RediffValidation@24c22fe]" started-at="2025-09-01T18:17:01 IST" name="Redfflogin" finished-at="2025-09-01T18:17:28 IST" duration-ms="27425" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Username = chiragpatel@infosystechnologies.com]]>
@@ -1014,15 +918,27 @@
             </line>
           </reporter-output>
         </test-method> <!-- Redfflogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.RediffValidation@24c22fe]" started-at="2025-09-01T18:17:28 IST" name="tearDown" finished-at="2025-09-01T18:17:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.RediffValidation -->
       <class name="test.Flipkart">
-        <test-method signature="software()[pri:0, instance:test.Flipkart@19b89d4]" started-at="2025-08-22T17:39:04 IST" name="software" finished-at="2025-08-22T17:39:07 IST" duration-ms="3405" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Flipkart@791d1f8b]" started-at="2025-09-01T18:16:42 IST" name="setUp" finished-at="2025-09-01T18:16:44 IST" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="software()[pri:0, instance:test.Flipkart@791d1f8b]" started-at="2025-09-01T18:16:44 IST" name="software" finished-at="2025-09-01T18:16:47 IST" duration-ms="2840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- software -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Flipkart@791d1f8b]" started-at="2025-09-01T18:16:47 IST" name="tearDown" finished-at="2025-09-01T18:16:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.Flipkart -->
       <class name="test.DataProviderTest">
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderTest@27912e3]" started-at="2025-08-22T17:38:36 IST" name="validLogin" data-provider="dp" finished-at="2025-08-22T17:38:36 IST" duration-ms="7" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderTest@19b89d4]" started-at="2025-09-01T18:16:26 IST" name="validLogin" data-provider="dp" finished-at="2025-09-01T18:16:26 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1046,25 +962,67 @@
         </test-method> <!-- validLogin -->
       </class> <!-- test.DataProviderTest -->
       <class name="test.LocatorsExample">
-        <test-method signature="locatorDemo()[pri:0, instance:test.LocatorsExample@4bbf6d0e]" started-at="2025-08-22T17:39:07 IST" name="locatorDemo" finished-at="2025-08-22T17:39:13 IST" duration-ms="6363" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LocatorsExample@14f232c4]" started-at="2025-09-01T18:16:52 IST" name="setUp" finished-at="2025-09-01T18:16:53 IST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="locatorDemo()[pri:0, instance:test.LocatorsExample@14f232c4]" started-at="2025-09-01T18:16:53 IST" name="locatorDemo" finished-at="2025-09-01T18:16:58 IST" duration-ms="4554" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- locatorDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LocatorsExample@14f232c4]" started-at="2025-09-01T18:16:58 IST" name="tearDown" finished-at="2025-09-01T18:16:58 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.LocatorsExample -->
       <class name="test.Exa_Checkbox">
-        <test-method signature="Testcheckbox()[pri:0, instance:test.Exa_Checkbox@43015c69]" started-at="2025-08-22T17:38:54 IST" name="Testcheckbox" finished-at="2025-08-22T17:39:04 IST" duration-ms="9785" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Exa_Checkbox@30b6ffe0]" started-at="2025-09-01T18:16:33 IST" name="setUp" finished-at="2025-09-01T18:16:36 IST" duration-ms="2062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Testcheckbox()[pri:0, instance:test.Exa_Checkbox@30b6ffe0]" started-at="2025-09-01T18:16:36 IST" name="Testcheckbox" finished-at="2025-09-01T18:16:41 IST" duration-ms="5882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcheckbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Exa_Checkbox@30b6ffe0]" started-at="2025-09-01T18:16:41 IST" name="tearDown" finished-at="2025-09-01T18:16:42 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.Exa_Checkbox -->
+      <class name="test.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.GoogleTest@2415fc55]" started-at="2025-09-01T18:16:47 IST" name="setUp" finished-at="2025-09-01T18:16:49 IST" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:0, instance:test.GoogleTest@2415fc55]" started-at="2025-09-01T18:16:49 IST" name="verifyTitle" finished-at="2025-09-01T18:16:52 IST" duration-ms="2016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GoogleTest@2415fc55]" started-at="2025-09-01T18:16:52 IST" name="tearDown" finished-at="2025-09-01T18:16:52 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.GoogleTest -->
       <class name="test.EdurekaLogin">
-        <test-method signature="Edureka()[pri:0, instance:test.EdurekaLogin@34b9f960]" started-at="2025-08-22T17:38:36 IST" name="Edureka" finished-at="2025-08-22T17:38:54 IST" duration-ms="18156" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EdurekaLogin@4bbf6d0e]" started-at="2025-09-01T18:16:26 IST" name="setUp" finished-at="2025-09-01T18:16:30 IST" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Edureka()[pri:0, instance:test.EdurekaLogin@4bbf6d0e]" started-at="2025-09-01T18:16:30 IST" name="Edureka" finished-at="2025-09-01T18:16:33 IST" duration-ms="3251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Edureka -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.EdurekaLogin@4bbf6d0e]" started-at="2025-09-01T18:16:33 IST" name="tearDown" finished-at="2025-09-01T18:16:33 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.EdurekaLogin -->
       <class name="test.CountCountry">
-        <test-method signature="FbServiceDirectory()[pri:0, instance:test.CountCountry@74f6c5d8]" started-at="2025-08-22T17:38:29 IST" name="FbServiceDirectory" finished-at="2025-08-22T17:38:36 IST" duration-ms="7023" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CountCountry@43015c69]" started-at="2025-09-01T18:16:19 IST" name="setUp" finished-at="2025-09-01T18:16:22 IST" duration-ms="2303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FbServiceDirectory()[pri:0, instance:test.CountCountry@43015c69]" started-at="2025-09-01T18:16:22 IST" name="FbServiceDirectory" finished-at="2025-09-01T18:16:26 IST" duration-ms="4517" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[https://www.facebook.com/biz/directory/]]>
@@ -1707,9 +1665,17 @@
             </line>
           </reporter-output>
         </test-method> <!-- FbServiceDirectory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CountCountry@43015c69]" started-at="2025-09-01T18:16:26 IST" name="tearDown" finished-at="2025-09-01T18:16:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.CountCountry -->
       <class name="test.AccessibilityTest">
-        <test-method signature="AccessibilityCheck()[pri:0, instance:test.AccessibilityTest@7d61eb55]" started-at="2025-08-22T17:38:14 IST" name="AccessibilityCheck" finished-at="2025-08-22T17:38:29 IST" duration-ms="14245" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AccessibilityTest@3b5fad2d]" started-at="2025-09-01T18:16:04 IST" name="setUp" finished-at="2025-09-01T18:16:06 IST" duration-ms="2170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AccessibilityCheck()[pri:0, instance:test.AccessibilityTest@3b5fad2d]" started-at="2025-09-01T18:16:06 IST" name="AccessibilityCheck" finished-at="2025-09-01T18:16:19 IST" duration-ms="13154" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Accessibility Violations:]]>
@@ -1743,54 +1709,6 @@
             </line>
             <line>
               <![CDATA[ - [.logo-white]]]>
-            </line>
-            <line>
-              <![CDATA[Violation ID: color-contrast]]>
-            </line>
-            <line>
-              <![CDATA[Description: Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds]]>
-            </line>
-            <line>
-              <![CDATA[Impact: serious]]>
-            </line>
-            <line>
-              <![CDATA[Elements:]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #Snapshot2]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #price]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #Instrument1]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #SnapshotDifference2 > .negative]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #SnapshotDifference1 > .negative]]]>
-            </line>
-            <line>
-              <![CDATA[Violation ID: definition-list]]>
-            </line>
-            <line>
-              <![CDATA[Description: Ensures <dl> elements are structured correctly]]>
-            </line>
-            <line>
-              <![CDATA[Impact: serious]]>
-            </line>
-            <line>
-              <![CDATA[Elements:]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, .datetime]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, .price]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, .change_value_percentage]]]>
             </line>
             <line>
               <![CDATA[Violation ID: duplicate-id]]>
@@ -1985,36 +1903,6 @@
               <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(4) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
             </line>
             <line>
-              <![CDATA[Violation ID: meta-viewport]]>
-            </line>
-            <line>
-              <![CDATA[Description: Ensures <meta name="viewport"> does not disable text scaling and zooming]]>
-            </line>
-            <line>
-              <![CDATA[Impact: critical]]>
-            </line>
-            <line>
-              <![CDATA[Elements:]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, meta[name="viewport"]]]]>
-            </line>
-            <line>
-              <![CDATA[Violation ID: region]]>
-            </line>
-            <line>
-              <![CDATA[Description: Ensures all page content is contained by landmarks]]>
-            </line>
-            <line>
-              <![CDATA[Impact: moderate]]>
-            </line>
-            <line>
-              <![CDATA[Elements:]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, .snapData]]]>
-            </line>
-            <line>
               <![CDATA[Violation ID: role-img-alt]]>
             </line>
             <line>
@@ -2031,9 +1919,13 @@
             </line>
           </reporter-output>
         </test-method> <!-- AccessibilityCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AccessibilityTest@3b5fad2d]" started-at="2025-09-01T18:16:19 IST" name="tearDown" finished-at="2025-09-01T18:16:19 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.AccessibilityTest -->
       <class name="test.MyTest">
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.MyTest@30b6ffe0]" started-at="2025-08-22T17:39:13 IST" name="testLogin" data-provider="dp" finished-at="2025-08-22T17:39:13 IST" duration-ms="9" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.MyTest@13bc8645]" started-at="2025-09-01T18:16:58 IST" name="testLogin" data-provider="dp" finished-at="2025-09-01T18:16:58 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>

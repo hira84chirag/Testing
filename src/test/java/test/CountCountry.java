@@ -13,10 +13,9 @@ public class CountCountry extends BaseTest{
 	public void FbServiceDirectory() throws InterruptedException {
 		
 	// Open  browser and pass url
-	String brow="chrome";
+	
 	String url="https://www.facebook.com/biz/directory/";
-	CountCountry obj=new CountCountry();	
-	obj.setupBrowser(brow, url);
+	driver.get(url);
 	driver.manage().window().maximize();
 	
 	//	obj.beforetest(brow,url);			

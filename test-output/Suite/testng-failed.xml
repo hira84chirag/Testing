@@ -5,16 +5,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="urlfb" value="https://www.facebook.com"/>
     <classes>
-      <class name="test.Flipkart">
+      <class name="test.LocatorsExample">
         <methods>
-          <include name="software"/>
+          <include name="locatorDemo"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- test.Flipkart -->
-      <class name="test.Exa_Checkbox">
-        <methods>
-          <include name="Testcheckbox"/>
-        </methods>
-      </class> <!-- test.Exa_Checkbox -->
+      </class> <!-- test.LocatorsExample -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -16,12 +16,8 @@ import java.util.List;
 public class AccessibilityTest extends BaseTest {
 	@Test
     public  void AccessibilityCheck() throws FileNotFoundException {
-        // Path to your ChromeDriver executable
-
         // Step 1: Initialize WebDriver
-    	AccessibilityTest obj= new AccessibilityTest();
-    	obj.setupBrowser("chrome", "https://www.atkinsrealis.com/en/markets-and-services");
-//        WebDriver driver = new ChromeDriver();
+		driver.get("https://www.atkinsrealis.com/en/markets-and-services");
 
         try {
             // Step 2: Open a webpage
@@ -64,11 +60,7 @@ public class AccessibilityTest extends BaseTest {
 
         	} catch (Exception e) {
             e.printStackTrace();
-        	} finally {
-            // Step 6: Quit the WebDriver
-            driver.quit();
-        
-        	}
+        	} 
         
       }
 }

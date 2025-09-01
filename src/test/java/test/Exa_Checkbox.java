@@ -15,10 +15,10 @@ import org.openqa.selenium.WebDriver;
 public class Exa_Checkbox extends BaseTest {
 	@Test
 public  void Testcheckbox()  throws InterruptedException {
-		Exa_Checkbox obj=new Exa_Checkbox();
+
 	
 		//	WebDriver driver=new FirefoxDriver();
-	obj.setupBrowser("chrome", "https://demoqa.com/checkbox");
+		driver.get("https://demoqa.com/checkbox");
 	String path="//button[@aria-label='Toggle']";
 	CommonFunctions.scrollpage(driver,"//div[@id='Ad.Plus-970x250-2']");
 	WebElement chkpath=driver.findElement(By.xpath(path));
@@ -33,7 +33,6 @@ public  void Testcheckbox()  throws InterruptedException {
 		 if (i<1)	w.get(i).click();
 			System.out.println(w.get(i));
 		}
-	driver.quit();
 	}
 	
 }

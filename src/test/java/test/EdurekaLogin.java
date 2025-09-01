@@ -10,9 +10,8 @@ public class EdurekaLogin extends BaseTest{
 	//public static void main(String[] args) throws InterruptedException
 	public void Edureka() throws InterruptedException{
 		// TODO Auto-generated method stub
-			
-		EdurekaLogin obj=new EdurekaLogin();	
-		obj.setupBrowser("chrome","https://www.edureka.co/signin");		
+		
+		driver.get("https://www.edureka.co/signin");		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(500));
 	
@@ -24,7 +23,6 @@ public class EdurekaLogin extends BaseTest{
 		// get email message from web elements	
 		Eduobj.getLoginValue();
 		
-		driver.quit();
 	}
 
 }

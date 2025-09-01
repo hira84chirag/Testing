@@ -10,8 +10,8 @@ public class RediffValidation extends BaseTest {
 	@Test
 	public void Redfflogin() {
 		// Open  browser and pass url
-		RediffValidation br=new RediffValidation();	
-		br.setupBrowser("chrome","https://mail.rediff.com/cgi-bin/login.cgi");
+	
+		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
 		
 		// Create object from object Repository 
 		Obj_RediffValidation obj=new Obj_RediffValidation(driver);
