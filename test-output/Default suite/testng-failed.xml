@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.LocatorsExample">
+      <class name="test.Assertions_Test">
         <methods>
-          <include name="locatorDemo"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="HardAssert"/>
+          <include name="SoftAss"/>
         </methods>
-      </class> <!-- test.LocatorsExample -->
+      </class> <!-- test.Assertions_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

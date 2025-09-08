@@ -10,17 +10,48 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
-public class BaseTest {
+import com.investis.testing.Base;
+
+public class BaseTest extends Base{
 	
 	static WebDriver driver;
 	String browser="chrome", url="";
 	
 	@BeforeClass
 	public void setUp() {
-		
-		if(browser.equalsIgnoreCase("chrome")) 
+		loadPropertiesFile();	
+		browser=prop.getProperty("browser");
+		driver=intilizeBrowserAndOpenApplication(browser);	
+		//Thread.sleep(1000);
+	}
+	
+	
+	public void navigatetourl(String url) {
+		driver.get(url);
+	}
+	
+	public void quit() {
+		driver.quit();
+	}
+
+	@AfterClass
+	 public void tearDown() {
+	        if (driver != null) {
+	            driver.quit();
+	            System.out.println("Browser closed");
+	        }
+	  }
+	
+	
+}
+
+
+
+/*
+ 
+ 		if(browser.equalsIgnoreCase("chrome")) 
 			{
-			
+	//		System.setProperty("webdriver.chrome.driver", "C:/Program Files/Google/Chrome/Application/chrome.exe");
 			 // Create ChromeOptions and add incognito argument
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-dev-shm-usage");
@@ -45,28 +76,5 @@ public class BaseTest {
 			driver.get(url);
 		else
 			driver.get("about:blank");
-	}
-	public WebDriver getDriver() {
-		return driver;
-	}
-	public void navigatetourl(String url) {
-		driver.get(url);
-	}
-	
-	public void quit() {
-		driver.quit();
-	}
 
-	@AfterClass
-	 public void tearDown() {
-	        if (driver != null) {
-	            driver.quit();
-	            System.out.println("Browser closed");
-	        }
-	  }
-	
-	
-}
-
-
-
+*/

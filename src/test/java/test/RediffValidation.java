@@ -1,7 +1,8 @@
 package test;
 
 import org.testng.annotations.Test;
-import Util.Obj_RediffValidation;
+
+import Utilities.Obj_RediffValidation;
 
 
 public class RediffValidation extends BaseTest {
@@ -10,8 +11,8 @@ public class RediffValidation extends BaseTest {
 	@Test
 	public void Redfflogin() {
 		// Open  browser and pass url
-	
-		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+		
+		driver.get(prop.getProperty("redifflogin"));
 		
 		// Create object from object Repository 
 		Obj_RediffValidation obj=new Obj_RediffValidation(driver);
@@ -26,7 +27,7 @@ public class RediffValidation extends BaseTest {
 		// Click sign in button.
 		obj.clicksignbtn();
 		
-		driver.quit();
+		
 	}
 
 }

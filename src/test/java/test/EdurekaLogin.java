@@ -2,7 +2,8 @@ package test;
 import java.time.Duration;
 
 import org.testng.annotations.Test;
-import Util.Obj_Edureka;
+
+import Utilities.Obj_Edureka;
 
 
 public class EdurekaLogin extends BaseTest{
@@ -11,7 +12,7 @@ public class EdurekaLogin extends BaseTest{
 	public void Edureka() throws InterruptedException{
 		// TODO Auto-generated method stub
 		
-		driver.get("https://www.edureka.co/signin");		
+		driver.get(prop.getProperty("edurekaurl"));		
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(500));
 	

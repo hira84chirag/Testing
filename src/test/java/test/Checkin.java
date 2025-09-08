@@ -1,5 +1,6 @@
 package test;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.concurrent.TimeoutException;
 
@@ -9,15 +10,16 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
 //import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Checkin {
+public class Checkin extends BaseTest{
 	
-	public static void main(String[] args) {
-        WebDriver driver = new FirefoxDriver();
+	public static void main(String[] args) throws IOException {
+       // WebDriver driver = new FirefoxDriver();
         driver.get("https://www.crowdanalytix.com/#home");
         
-        WebElement webElement = getWebElement(driver, "homekkkkkkkkkkkk");
+        WebElement webElement = getWebElement(driver, "home");
         int i = 1;
         while (webElement == null && i < 4) {
             webElement = getWebElement(driver, "homessssssssssss");
@@ -31,7 +33,7 @@ public class Checkin {
 
     public static WebElement getWebElement(WebDriver driver, String id) {
         WebElement myDynamicElement = null;
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(500));
 		myDynamicElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(id)));           
 		return myDynamicElement;
     }

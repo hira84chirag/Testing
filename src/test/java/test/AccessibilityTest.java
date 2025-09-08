@@ -5,7 +5,11 @@ import com.deque.html.axecore.providers.FileAxeScriptProvider;
 import com.deque.html.axecore.results.Results;
 import com.deque.html.axecore.results.Rule;
 import com.deque.html.axecore.selenium.AxeBuilder;
+
+import Utilities.CommonFunctions;
+
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import java.io.FileNotFoundException;
@@ -16,17 +20,19 @@ import java.util.List;
 public class AccessibilityTest extends BaseTest {
 	@Test
     public  void AccessibilityCheck() throws FileNotFoundException {
+		SoftAssert soft=new SoftAssert();
         // Step 1: Initialize WebDriver
-		driver.get("https://www.atkinsrealis.com/en/markets-and-services");
-
+		
+		driver.get(prop.getProperty("Atkinsurl"));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(300));
         try {
             // Step 2: Open a webpage
   //          driver.get("https://www.atkinsrealis.com/en/about");
             driver.manage().window().maximize();
-        	driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(1000));
+        	
             String acceptbtn="//button[contains(text(),'Accept all cookies')]";
-            driver.findElement(By.xpath(acceptbtn));
-            Thread.sleep(2000);
+            CommonFunctions.WaitExpt(driver, acceptbtn);
+
             // Step 3: Load the axe.min.js script
             URL axeScriptUrl = AccessibilityTest.class.getResource("/axe.min.js");
        //     File axeScript = new File(axeScriptUrl.toURI());
@@ -61,6 +67,6 @@ public class AccessibilityTest extends BaseTest {
         	} catch (Exception e) {
             e.printStackTrace();
         	} 
-        
+        soft.assertAll();
       }
 }

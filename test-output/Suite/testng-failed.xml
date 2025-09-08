@@ -5,13 +5,24 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="urlfb" value="https://www.facebook.com"/>
     <classes>
-      <class name="test.LocatorsExample">
+      <class name="test.Flipkart">
         <methods>
-          <include name="locatorDemo"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="software"/>
         </methods>
-      </class> <!-- test.LocatorsExample -->
+      </class> <!-- test.Flipkart -->
+      <class name="test.StaleElement_Exp">
+        <methods>
+          <include name="waitExample"/>
+        </methods>
+      </class> <!-- test.StaleElement_Exp -->
+      <class name="test.Assertions_Test">
+        <methods>
+          <include name="HardAssert"/>
+          <include name="SoftAss"/>
+        </methods>
+      </class> <!-- test.Assertions_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

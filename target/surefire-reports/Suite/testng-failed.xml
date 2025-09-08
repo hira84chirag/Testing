@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="urlfb" value="https://www.facebook.com"/>
+    <classes>
+      <class name="test.Assertions_Test">
+        <methods>
+          <include name="HardAssert"/>
+          <include name="SoftAss"/>
+        </methods>
+      </class> <!-- test.Assertions_Test -->
+      <class name="test.StaleElement_Exp">
+        <methods>
+          <include name="waitExample"/>
+        </methods>
+      </class> <!-- test.StaleElement_Exp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
