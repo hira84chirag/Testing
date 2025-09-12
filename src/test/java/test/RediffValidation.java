@@ -2,7 +2,7 @@ package test;
 
 import org.testng.annotations.Test;
 
-import Utilities.Obj_RediffValidation;
+import Pom.Obj_RediffValidation;
 
 
 public class RediffValidation extends BaseTest {

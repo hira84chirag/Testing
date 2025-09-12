@@ -1,4 +1,5 @@
 package test;
+import java.awt.AWTException;
 import java.time.Duration;
 import java.util.List;
 import org.openqa.selenium.By;
@@ -8,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-import Utilities.CommonFunctions;
+import Utilities.CommonFun;
 
 public class Flipkart extends BaseTest{
 	/*
@@ -16,7 +17,7 @@ public class Flipkart extends BaseTest{
 	 */
 	
 	@Test()
-	public void software() throws InterruptedException  {
+	public void software() throws InterruptedException, AWTException  {
 		// TODO Auto-generated method stub
 		String path="";		
 
@@ -56,8 +57,10 @@ public class Flipkart extends BaseTest{
 
 	        // Perform the mouse hover action
 	        actions.moveToElement(elementToHover).perform();
-	        CommonFunctions.ScreenShot(driver, "Flipkart");		        
-			driver.quit();
+	        CommonFun.scrollpage(driver, "//footer[@class='TKplD7']");
+	        
+	        CommonFun.photo("Flipkart");		        
+			//driver.quit();
 	}
 }
 

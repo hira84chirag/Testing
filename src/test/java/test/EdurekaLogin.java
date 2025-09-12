@@ -3,7 +3,7 @@ import java.time.Duration;
 
 import org.testng.annotations.Test;
 
-import Utilities.Obj_Edureka;
+import Pom.Obj_Edureka;
 
 
 public class EdurekaLogin extends BaseTest{

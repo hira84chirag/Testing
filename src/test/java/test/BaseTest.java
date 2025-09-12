@@ -20,7 +20,7 @@ public class BaseTest extends Base{
 	@BeforeClass
 	public void setUp() {
 		loadPropertiesFile();	
-		browser=prop.getProperty("browser");
+		//browser=prop.getProperty("browser");
 		driver=intilizeBrowserAndOpenApplication(browser);	
 		//Thread.sleep(1000);
 	}

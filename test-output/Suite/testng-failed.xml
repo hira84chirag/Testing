@@ -5,18 +5,6 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="urlfb" value="https://www.facebook.com"/>
     <classes>
-      <class name="test.Flipkart">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="software"/>
-        </methods>
-      </class> <!-- test.Flipkart -->
-      <class name="test.StaleElement_Exp">
-        <methods>
-          <include name="waitExample"/>
-        </methods>
-      </class> <!-- test.StaleElement_Exp -->
       <class name="test.Assertions_Test">
         <methods>
           <include name="HardAssert"/>

@@ -6,6 +6,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import Utilities.Common;
+import Utilities.CommonFun;
 
 // import pom.ObjectRepo;
 
@@ -22,7 +23,7 @@ public class CountCountry extends BaseTest{
 	Assert.assertEquals(titlestr,"Facebook services directory","Title isn't matched");
 	Reporter.log(driver.getTitle()); // Create object from object Repository
 	String classpath="//div[@class='_4-u2 _80gx _4-u8']//a";
-	Common.countLinks(driver,classpath);
+	CommonFun.countLinks(driver,classpath);
 	Reporter.log("-----softare Testing-----");	  
 	 //	  Common.countclass(driver,classpath);
 

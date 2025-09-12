@@ -6,7 +6,7 @@ import com.deque.html.axecore.results.Results;
 import com.deque.html.axecore.results.Rule;
 import com.deque.html.axecore.selenium.AxeBuilder;
 
-import Utilities.CommonFunctions;
+import Utilities.CommonFun;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -31,7 +31,7 @@ public class AccessibilityTest extends BaseTest {
             driver.manage().window().maximize();
         	
             String acceptbtn="//button[contains(text(),'Accept all cookies')]";
-            CommonFunctions.WaitExpt(driver, acceptbtn);
+            CommonFun.WaitExpt(driver, acceptbtn);
 
             // Step 3: Load the axe.min.js script
             URL axeScriptUrl = AccessibilityTest.class.getResource("/axe.min.js");

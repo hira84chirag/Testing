@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import Utilities.CommonFunctions;
+import Utilities.CommonFun;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +19,7 @@ public  void Testcheckbox()  throws InterruptedException {
 		
 	driver.get(prop.getProperty("demoqa"));
 	String path="//button[@aria-label='Toggle']";
-	CommonFunctions.scrollpage(driver,"//div[@id='Ad.Plus-970x250-2']");
+	CommonFun.scrollpage(driver,"//div[@id='Ad.Plus-970x250-2']");
 	WebElement chkpath=driver.findElement(By.xpath(path));
 	chkpath.click();
 	List<WebElement> w = chkpath.findElements(By.xpath("//span[@class='rct-checkbox']"));
