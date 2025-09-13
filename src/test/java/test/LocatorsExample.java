@@ -1,28 +1,31 @@
 package test;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
+
+import Utilities.CommonFun;
+
 import org.openqa.selenium.WebElement;
 
 
 public class LocatorsExample extends BaseTest{
 	
 @Test
-	public void locatorDemo() throws InterruptedException {
-		driver.get("http://www.google.com/");
+	public void GooglelocatorDemo()  {
+		driver.get(prop.getProperty("Gogleurl"));
         driver.manage().window().maximize();
-
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(200));
         String str= driver.findElement(By.partialLinkText("हिन्दी")).getText();
-        System.out.println(str);
+        Reporter.log(str);
         String path="//textarea[@title='Search']";
+   //     CommonFun.WaitExpt(driver, path);
         WebElement searchbox= driver.findElement(By.xpath(path));
-        searchbox.sendKeys(str);
-        Thread.sleep(500);
-        searchbox.sendKeys(Keys.ENTER); 
-        Thread.sleep(3000);
-     
-		
+        searchbox.sendKeys(str + Keys.ENTER);
+ 
 	}
 		
 }

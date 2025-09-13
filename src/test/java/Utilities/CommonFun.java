@@ -8,6 +8,8 @@ import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.List;
@@ -145,7 +147,7 @@ public class CommonFun {
 	try {
 		Dimension dimvar= Toolkit.getDefaultToolkit().getScreenSize();
 		Rectangle rect = new Rectangle(dimvar);
-		
+		Thread.sleep(1000);
 		BufferedImage bufferedImage =robot.createScreenCapture(rect);
 		// Create a file name
 		String Path = System.getProperty("user.dir")+"//test-output//Screenshot//"+filename+System.currentTimeMillis() + ".jpg";;
@@ -155,21 +157,25 @@ public class CommonFun {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 	
-	public static void countLinks(WebDriver driver,String xpath) {	
+	public static void CountLinks(WebDriver driver,String xpath) {	
 		
 		List <WebElement> links =  driver.findElements(By.xpath(xpath));
 	//	 List<WebElement> links = driver.findElements(By.xpath("//img[@class='_46-i img']")); 
-		
-		 Reporter.log("Total links   first=" +  links.size());
+			System.out.println("total size"+  links.size());
+			Reporter.log("count begin start Total links=" +  links.size());
 		 for (WebElement element : links) {
              String linkText = element.getText();
-             String href = element.getAttribute("href");
+             String url = element.getAttribute("href");
 
-             if (href != null && !href.isEmpty()) {
-            	 Reporter.log("Text: " + linkText + " - Link: " + href);
+             if (url != null && !url.isEmpty()) {
+            	 checkBrokenLink(url);
+
              }
     		 
          }
@@ -178,24 +184,44 @@ public class CommonFun {
 			
 	}
 
-	public static void countclass(WebDriver driver,String classname) {	
-		List <WebElement> links =  driver.findElements(By.className(classname));
+	public static void BrokenLinks(WebDriver driver,String tagename) {	
+		List <WebElement> links =  driver.findElements(By.tagName(tagename));
 	//	 List<WebElement> links = driver.findElements(By.xpath("//img[@class='_46-i img']")); 
-       
-		 int i=0;
+		 Reporter.log("Total links=" + links.size());
+		 
 		 for (WebElement element : links) {
              String linkText = element.getText();
-             String href = element.getAttribute("href");
+             String url = element.getAttribute("href");
 
-             if (href != null && !href.isEmpty()) {
-                 Reporter.log("Text: " + linkText + " - Link: " + href);
-                 i++;
+             if (url != null && !url.isEmpty()) {
+                // Reporter.log("Text: " + linkText + " - Link: " + url);
+                 checkBrokenLink(url);
+      
              }
     		 
          }
-		 Reporter.log("Total links=" + i);
-	      //  obj.quiteBrowser();
+		
+
 
 	}
+	 public static void checkBrokenLink(String linkUrl) {
+	        try {
+	            URL url = new URL(linkUrl);
+	            HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
+	            httpURLConnect.setConnectTimeout(3000);
+	            httpURLConnect.connect();
+	            int responseCode = httpURLConnect.getResponseCode();
+            	
+	            if (httpURLConnect.getResponseCode() >= 400) {
+            	
+	            	Reporter.log(linkUrl + " is a broken link." +" HTTP status code: "+responseCode+"=" + httpURLConnect.getResponseMessage());
+	            } else {
+	            	Reporter.log("URL :" + linkUrl );
+	            }
+	        } catch (Exception e) {
+	            // This catch block handles exceptions like MalformedURLException or IOExceptions
+	        	Reporter.log(linkUrl + " is a broken link due to an exception: " + e.getMessage());
+	        }
+	    }
 
 }

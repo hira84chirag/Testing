@@ -3,6 +3,7 @@ package test;
 import org.testng.annotations.Test;
 
 import Pom.Obj_RediffValidation;
+import Utilities.CommonFun;
 
 
 public class RediffValidation extends BaseTest {
@@ -26,7 +27,7 @@ public class RediffValidation extends BaseTest {
 		
 		// Click sign in button.
 		obj.clicksignbtn();
-		
+		CommonFun.BrokenLinks(driver, "a");
 		
 	}
 

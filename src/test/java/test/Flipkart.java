@@ -12,12 +12,8 @@ import org.testng.annotations.Test;
 import Utilities.CommonFun;
 
 public class Flipkart extends BaseTest{
-	/*
-	 * public Flipkart() { super(); }
-	 */
-	
 	@Test()
-	public void software() throws InterruptedException, AWTException  {
+	public void Menul_Links() throws InterruptedException, AWTException  {
 		// TODO Auto-generated method stub
 		String path="";		
 
@@ -28,38 +24,19 @@ public class Flipkart extends BaseTest{
 //		String xpath= "//span[@class='_1XjE3T']";
 		
 		String xpath= "//div[@class='_3sdu8W emupdz']/a";
-		int i=0;
-		List<WebElement> seeofferchild=driver.findElements(By.xpath(xpath)); 	
-		
-		for (WebElement element : seeofferchild) {
-			WebElement pElement = element.findElement(By.tagName("span"));
-			
-			  String linkText = pElement.getAttribute("innerText"); 
-			  String href = pElement.getAttribute("href"); // element.getAttribute("value");
-			 		  
-			   if (!linkText.isEmpty()) { 
-				   System.out.println("Text: " + linkText + " - Link: " + href); 				   
-			   }			  
-//			  System.out.println("Text: "+i + linkText + " - Link: " + href); 
-			  
-			  i++; 
-			  
-			  // }
-			  }
-	        System.out.println("Total links=" + i);
-	        
-	        String xpath1="//img[@class='_2puWtW _3a3qyb' and @alt='Fashion']";
+		CommonFun.CountLinks(driver, xpath);
+        String Fashionpath="//img[@class='_2puWtW _3a3qyb' and @alt='Fashion']";
 	     // Locate the element you want to hover over
-	        WebElement elementToHover = driver.findElement(By.xpath(xpath1)); 
+	        WebElement elementToHover = driver.findElement(By.xpath(Fashionpath)); 
 	   
 	        // Create an Actions object
 	        Actions actions = new Actions(driver);
 
 	        // Perform the mouse hover action
 	        actions.moveToElement(elementToHover).perform();
-	        CommonFun.scrollpage(driver, "//footer[@class='TKplD7']");
-	        
-	        CommonFun.photo("Flipkart");		        
+	        CommonFun.scrollpage(driver, "//footer[@class='TKplD7']");	        
+	        CommonFun.photo("Flipkart");	
+	       
 			//driver.quit();
 	}
 }

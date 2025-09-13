@@ -35,54 +35,6 @@
       <![CDATA[ - [.logo-white]]]>
     </line>
     <line>
-      <![CDATA[Violation ID: color-contrast]]>
-    </line>
-    <line>
-      <![CDATA[Description: Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds]]>
-    </line>
-    <line>
-      <![CDATA[Impact: serious]]>
-    </line>
-    <line>
-      <![CDATA[Elements:]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #Snapshot2]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #price]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #Instrument1]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #SnapshotDifference2 > .positive]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, #SnapshotDifference1 > .positive]]]>
-    </line>
-    <line>
-      <![CDATA[Violation ID: definition-list]]>
-    </line>
-    <line>
-      <![CDATA[Description: Ensures <dl> elements are structured correctly]]>
-    </line>
-    <line>
-      <![CDATA[Impact: serious]]>
-    </line>
-    <line>
-      <![CDATA[Elements:]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, .datetime]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, .price]]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, .change_value_percentage]]]>
-    </line>
-    <line>
       <![CDATA[Violation ID: duplicate-id]]>
     </line>
     <line>
@@ -272,36 +224,6 @@
       <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(4) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
     </line>
     <line>
-      <![CDATA[Violation ID: meta-viewport]]>
-    </line>
-    <line>
-      <![CDATA[Description: Ensures <meta name="viewport"> does not disable text scaling and zooming]]>
-    </line>
-    <line>
-      <![CDATA[Impact: critical]]>
-    </line>
-    <line>
-      <![CDATA[Elements:]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, meta[name="viewport"]]]]>
-    </line>
-    <line>
-      <![CDATA[Violation ID: region]]>
-    </line>
-    <line>
-      <![CDATA[Description: Ensures all page content is contained by landmarks]]>
-    </line>
-    <line>
-      <![CDATA[Impact: moderate]]>
-    </line>
-    <line>
-      <![CDATA[Elements:]]>
-    </line>
-    <line>
-      <![CDATA[ - [#ExternalWebContentExternalIFrame, .snapData]]]>
-    </line>
-    <line>
       <![CDATA[Violation ID: role-img-alt]]>
     </line>
     <line>
@@ -317,658 +239,679 @@
       <![CDATA[ - [.language-dropdown > .language_swticher.dropdown_wrapper > .ddl_selected.noPsudeo.mono1 > .icon-right-arrow[role="img"][aria-hidden="false"]]]]>
     </line>
     <line>
-      <![CDATA[Facebook services directory]]>
-    </line>
-    <line>
-      <![CDATA[Total links   first=210]]>
-    </line>
-    <line>
-      <![CDATA[Text: Andorra - Link: https://www.facebook.com/biz/directory/AD/]]>
-    </line>
-    <line>
-      <![CDATA[Text: United Arab Emirates - Link: https://www.facebook.com/biz/directory/AE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Afghanistan - Link: https://www.facebook.com/biz/directory/AF/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Antigua - Link: https://www.facebook.com/biz/directory/AG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Anguilla - Link: https://www.facebook.com/biz/directory/AI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Albania - Link: https://www.facebook.com/biz/directory/AL/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Armenia - Link: https://www.facebook.com/biz/directory/AM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Angola - Link: https://www.facebook.com/biz/directory/AO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Argentina - Link: https://www.facebook.com/biz/directory/AR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Austria - Link: https://www.facebook.com/biz/directory/AT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Australia - Link: https://www.facebook.com/biz/directory/AU/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Aruba - Link: https://www.facebook.com/biz/directory/AW/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Azerbaijan - Link: https://www.facebook.com/biz/directory/AZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Bosnia and Herzegovina - Link: https://www.facebook.com/biz/directory/BA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Barbados - Link: https://www.facebook.com/biz/directory/BB/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Bangladesh - Link: https://www.facebook.com/biz/directory/BD/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Belgium - Link: https://www.facebook.com/biz/directory/BE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Burkina Faso - Link: https://www.facebook.com/biz/directory/BF/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Bulgaria - Link: https://www.facebook.com/biz/directory/BG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Bahrain - Link: https://www.facebook.com/biz/directory/BH/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Burundi - Link: https://www.facebook.com/biz/directory/BI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Benin - Link: https://www.facebook.com/biz/directory/BJ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Bermuda - Link: https://www.facebook.com/biz/directory/BM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Brunei - Link: https://www.facebook.com/biz/directory/BN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Bolivia - Link: https://www.facebook.com/biz/directory/BO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Bonaire, Saint Eustatius and Saba - Link: https://www.facebook.com/biz/directory/BQ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Brazil - Link: https://www.facebook.com/biz/directory/BR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: The Bahamas - Link: https://www.facebook.com/biz/directory/BS/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Bhutan - Link: https://www.facebook.com/biz/directory/BT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Botswana - Link: https://www.facebook.com/biz/directory/BW/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Belarus - Link: https://www.facebook.com/biz/directory/BY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Belize - Link: https://www.facebook.com/biz/directory/BZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Canada - Link: https://www.facebook.com/biz/directory/CA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Democratic Republic of the Congo - Link: https://www.facebook.com/biz/directory/CD/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Republic of the Congo - Link: https://www.facebook.com/biz/directory/CG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Switzerland - Link: https://www.facebook.com/biz/directory/CH/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Côte d'Ivoire - Link: https://www.facebook.com/biz/directory/CI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Chile - Link: https://www.facebook.com/biz/directory/CL/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Cameroon - Link: https://www.facebook.com/biz/directory/CM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: China - Link: https://www.facebook.com/biz/directory/CN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Colombia - Link: https://www.facebook.com/biz/directory/CO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Costa Rica - Link: https://www.facebook.com/biz/directory/CR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Cuba - Link: https://www.facebook.com/biz/directory/CU/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Cape Verde - Link: https://www.facebook.com/biz/directory/CV/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Curaçao - Link: https://www.facebook.com/biz/directory/CW/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Cyprus - Link: https://www.facebook.com/biz/directory/CY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Czech Republic - Link: https://www.facebook.com/biz/directory/CZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Germany - Link: https://www.facebook.com/biz/directory/DE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Djibouti - Link: https://www.facebook.com/biz/directory/DJ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Denmark - Link: https://www.facebook.com/biz/directory/DK/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Dominica - Link: https://www.facebook.com/biz/directory/DM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Dominican Republic - Link: https://www.facebook.com/biz/directory/DO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Algeria - Link: https://www.facebook.com/biz/directory/DZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Ecuador - Link: https://www.facebook.com/biz/directory/EC/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Estonia - Link: https://www.facebook.com/biz/directory/EE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Egypt - Link: https://www.facebook.com/biz/directory/EG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Spain - Link: https://www.facebook.com/biz/directory/ES/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Ethiopia - Link: https://www.facebook.com/biz/directory/ET/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Finland - Link: https://www.facebook.com/biz/directory/FI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Fiji - Link: https://www.facebook.com/biz/directory/FJ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Faroe Islands - Link: https://www.facebook.com/biz/directory/FO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: France - Link: https://www.facebook.com/biz/directory/FR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Gabon - Link: https://www.facebook.com/biz/directory/GA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: United Kingdom - Link: https://www.facebook.com/biz/directory/GB/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Grenada - Link: https://www.facebook.com/biz/directory/GD/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Georgia - Link: https://www.facebook.com/biz/directory/GE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: French Guiana - Link: https://www.facebook.com/biz/directory/GF/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Guernsey - Link: https://www.facebook.com/biz/directory/GG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Ghana - Link: https://www.facebook.com/biz/directory/GH/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Gibraltar - Link: https://www.facebook.com/biz/directory/GI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: The Gambia - Link: https://www.facebook.com/biz/directory/GM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Guinea - Link: https://www.facebook.com/biz/directory/GN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Guadeloupe - Link: https://www.facebook.com/biz/directory/GP/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Greece - Link: https://www.facebook.com/biz/directory/GR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Guatemala - Link: https://www.facebook.com/biz/directory/GT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Guam - Link: https://www.facebook.com/biz/directory/GU/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Guyana - Link: https://www.facebook.com/biz/directory/GY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Hong Kong - Link: https://www.facebook.com/biz/directory/HK/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Honduras - Link: https://www.facebook.com/biz/directory/HN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Croatia - Link: https://www.facebook.com/biz/directory/HR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Haiti - Link: https://www.facebook.com/biz/directory/HT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Hungary - Link: https://www.facebook.com/biz/directory/HU/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Indonesia - Link: https://www.facebook.com/biz/directory/ID/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Ireland - Link: https://www.facebook.com/biz/directory/IE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Israel - Link: https://www.facebook.com/biz/directory/IL/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Isle of Man - Link: https://www.facebook.com/biz/directory/IM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: India - Link: https://www.facebook.com/biz/directory/IN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Iraq - Link: https://www.facebook.com/biz/directory/IQ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Iran - Link: https://www.facebook.com/biz/directory/IR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Iceland - Link: https://www.facebook.com/biz/directory/IS/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Italy - Link: https://www.facebook.com/biz/directory/IT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Jersey - Link: https://www.facebook.com/biz/directory/JE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Jamaica - Link: https://www.facebook.com/biz/directory/JM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Jordan - Link: https://www.facebook.com/biz/directory/JO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Japan - Link: https://www.facebook.com/biz/directory/JP/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Kenya - Link: https://www.facebook.com/biz/directory/KE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Kyrgyzstan - Link: https://www.facebook.com/biz/directory/KG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Cambodia - Link: https://www.facebook.com/biz/directory/KH/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Saint Kitts and Nevis - Link: https://www.facebook.com/biz/directory/KN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: South Korea - Link: https://www.facebook.com/biz/directory/KR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Kuwait - Link: https://www.facebook.com/biz/directory/KW/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Cayman Islands - Link: https://www.facebook.com/biz/directory/KY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Kazakhstan - Link: https://www.facebook.com/biz/directory/KZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Laos - Link: https://www.facebook.com/biz/directory/LA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Lebanon - Link: https://www.facebook.com/biz/directory/LB/]]>
-    </line>
-    <line>
-      <![CDATA[Text: St. Lucia - Link: https://www.facebook.com/biz/directory/LC/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Liechtenstein - Link: https://www.facebook.com/biz/directory/LI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Sri Lanka - Link: https://www.facebook.com/biz/directory/LK/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Liberia - Link: https://www.facebook.com/biz/directory/LR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Lesotho - Link: https://www.facebook.com/biz/directory/LS/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Lithuania - Link: https://www.facebook.com/biz/directory/LT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Luxembourg - Link: https://www.facebook.com/biz/directory/LU/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Latvia - Link: https://www.facebook.com/biz/directory/LV/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Libya - Link: https://www.facebook.com/biz/directory/LY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Morocco - Link: https://www.facebook.com/biz/directory/MA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Monaco - Link: https://www.facebook.com/biz/directory/MC/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Moldova - Link: https://www.facebook.com/biz/directory/MD/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Montenegro - Link: https://www.facebook.com/biz/directory/ME/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Saint Martin - Link: https://www.facebook.com/biz/directory/MF/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Madagascar - Link: https://www.facebook.com/biz/directory/MG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: North Macedonia - Link: https://www.facebook.com/biz/directory/MK/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Mali - Link: https://www.facebook.com/biz/directory/ML/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Myanmar - Link: https://www.facebook.com/biz/directory/MM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Mongolia - Link: https://www.facebook.com/biz/directory/MN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Macau - Link: https://www.facebook.com/biz/directory/MO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Northern Mariana Islands - Link: https://www.facebook.com/biz/directory/MP/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Martinique - Link: https://www.facebook.com/biz/directory/MQ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Mauritania - Link: https://www.facebook.com/biz/directory/MR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Malta - Link: https://www.facebook.com/biz/directory/MT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Mauritius - Link: https://www.facebook.com/biz/directory/MU/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Maldives - Link: https://www.facebook.com/biz/directory/MV/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Malawi - Link: https://www.facebook.com/biz/directory/MW/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Mexico - Link: https://www.facebook.com/biz/directory/MX/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Malaysia - Link: https://www.facebook.com/biz/directory/MY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Mozambique - Link: https://www.facebook.com/biz/directory/MZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Namibia - Link: https://www.facebook.com/biz/directory/NA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: New Caledonia - Link: https://www.facebook.com/biz/directory/NC/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Niger - Link: https://www.facebook.com/biz/directory/NE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Nigeria - Link: https://www.facebook.com/biz/directory/NG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Nicaragua - Link: https://www.facebook.com/biz/directory/NI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Netherlands - Link: https://www.facebook.com/biz/directory/NL/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Norway - Link: https://www.facebook.com/biz/directory/NO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Nepal - Link: https://www.facebook.com/biz/directory/NP/]]>
-    </line>
-    <line>
-      <![CDATA[Text: New Zealand - Link: https://www.facebook.com/biz/directory/NZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Oman - Link: https://www.facebook.com/biz/directory/OM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Panama - Link: https://www.facebook.com/biz/directory/PA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Peru - Link: https://www.facebook.com/biz/directory/PE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: French Polynesia - Link: https://www.facebook.com/biz/directory/PF/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Papua New Guinea - Link: https://www.facebook.com/biz/directory/PG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Philippines - Link: https://www.facebook.com/biz/directory/PH/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Pakistan - Link: https://www.facebook.com/biz/directory/PK/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Poland - Link: https://www.facebook.com/biz/directory/PL/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Puerto Rico - Link: https://www.facebook.com/biz/directory/PR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Palestine - Link: https://www.facebook.com/biz/directory/PS/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Portugal - Link: https://www.facebook.com/biz/directory/PT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Paraguay - Link: https://www.facebook.com/biz/directory/PY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Qatar - Link: https://www.facebook.com/biz/directory/QA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Réunion - Link: https://www.facebook.com/biz/directory/RE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Romania - Link: https://www.facebook.com/biz/directory/RO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Serbia - Link: https://www.facebook.com/biz/directory/RS/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Russia - Link: https://www.facebook.com/biz/directory/RU/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Rwanda - Link: https://www.facebook.com/biz/directory/RW/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Saudi Arabia - Link: https://www.facebook.com/biz/directory/SA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Solomon Islands - Link: https://www.facebook.com/biz/directory/SB/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Seychelles - Link: https://www.facebook.com/biz/directory/SC/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Sudan - Link: https://www.facebook.com/biz/directory/SD/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Sweden - Link: https://www.facebook.com/biz/directory/SE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Singapore - Link: https://www.facebook.com/biz/directory/SG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Slovenia - Link: https://www.facebook.com/biz/directory/SI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Slovakia - Link: https://www.facebook.com/biz/directory/SK/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Sierra Leone - Link: https://www.facebook.com/biz/directory/SL/]]>
-    </line>
-    <line>
-      <![CDATA[Text: San Marino - Link: https://www.facebook.com/biz/directory/SM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Senegal - Link: https://www.facebook.com/biz/directory/SN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Somalia - Link: https://www.facebook.com/biz/directory/SO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Suriname - Link: https://www.facebook.com/biz/directory/SR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: South Sudan - Link: https://www.facebook.com/biz/directory/SS/]]>
-    </line>
-    <line>
-      <![CDATA[Text: El Salvador - Link: https://www.facebook.com/biz/directory/SV/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Sint Maarten - Link: https://www.facebook.com/biz/directory/SX/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Syria - Link: https://www.facebook.com/biz/directory/SY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Swaziland - Link: https://www.facebook.com/biz/directory/SZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Turks and Caicos Islands - Link: https://www.facebook.com/biz/directory/TC/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Chad - Link: https://www.facebook.com/biz/directory/TD/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Togo - Link: https://www.facebook.com/biz/directory/TG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Thailand - Link: https://www.facebook.com/biz/directory/TH/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Tajikistan - Link: https://www.facebook.com/biz/directory/TJ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Timor-Leste - Link: https://www.facebook.com/biz/directory/TL/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Tunisia - Link: https://www.facebook.com/biz/directory/TN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Tonga - Link: https://www.facebook.com/biz/directory/TO/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Türkiye - Link: https://www.facebook.com/biz/directory/TR/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Trinidad and Tobago - Link: https://www.facebook.com/biz/directory/TT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Taiwan - Link: https://www.facebook.com/biz/directory/TW/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Tanzania - Link: https://www.facebook.com/biz/directory/TZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Ukraine - Link: https://www.facebook.com/biz/directory/UA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Uganda - Link: https://www.facebook.com/biz/directory/UG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: United States - Link: https://www.facebook.com/biz/directory/US/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Uruguay - Link: https://www.facebook.com/biz/directory/UY/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Uzbekistan - Link: https://www.facebook.com/biz/directory/UZ/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Vatican City - Link: https://www.facebook.com/biz/directory/VA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Saint Vincent and the Grenadines - Link: https://www.facebook.com/biz/directory/VC/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Venezuela - Link: https://www.facebook.com/biz/directory/VE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: British Virgin Islands - Link: https://www.facebook.com/biz/directory/VG/]]>
-    </line>
-    <line>
-      <![CDATA[Text: US Virgin Islands - Link: https://www.facebook.com/biz/directory/VI/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Vietnam - Link: https://www.facebook.com/biz/directory/VN/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Vanuatu - Link: https://www.facebook.com/biz/directory/VU/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Samoa - Link: https://www.facebook.com/biz/directory/WS/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Yemen - Link: https://www.facebook.com/biz/directory/YE/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Mayotte - Link: https://www.facebook.com/biz/directory/YT/]]>
-    </line>
-    <line>
-      <![CDATA[Text: South Africa - Link: https://www.facebook.com/biz/directory/ZA/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Zambia - Link: https://www.facebook.com/biz/directory/ZM/]]>
-    </line>
-    <line>
-      <![CDATA[Text: Zimbabwe - Link: https://www.facebook.com/biz/directory/ZW/]]>
-    </line>
-    <line>
-      <![CDATA[-----softare Testing-----]]>
-    </line>
-    <line>
       <![CDATA[Browser =chrome]]>
     </line>
     <line>
       <![CDATA[Passowrd =https://www.facebook.com]]>
     </line>
     <line>
-      <![CDATA[[[[[ChromeDriver: chrome on windows (e36b83b474627b1bdf6439ae5654bd9f)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+      <![CDATA[[[[[ChromeDriver: chrome on windows (8a8e35c3e7bfad9edefb66227aa757e3)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
     </line>
     <line>
-      <![CDATA[[[[[ChromeDriver: chrome on windows (e36b83b474627b1bdf6439ae5654bd9f)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+      <![CDATA[[[[[ChromeDriver: chrome on windows (8a8e35c3e7bfad9edefb66227aa757e3)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
     </line>
     <line>
-      <![CDATA[[[[[ChromeDriver: chrome on windows (e36b83b474627b1bdf6439ae5654bd9f)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+      <![CDATA[[[[[ChromeDriver: chrome on windows (8a8e35c3e7bfad9edefb66227aa757e3)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+    </line>
+    <line>
+      <![CDATA[Facebook services directory]]>
+    </line>
+    <line>
+      <![CDATA[count begin start Total links=210]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AD/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AF/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AL/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AU/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AW/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/AZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BB/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BD/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BF/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BH/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BJ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BQ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BS/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BW/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/BZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CD/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CH/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CL/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CU/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CV/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CW/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/CZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/DE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/DJ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/DK/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/DM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/DO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/DZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/EC/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/EE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/EG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/ES/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/ET/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/FI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/FJ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/FO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/FR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GB/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GD/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GF/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GH/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GP/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GU/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/GY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/HK/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/HN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/HR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/HT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/HU/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/ID/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/IE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/IL/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/IM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/IN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/IQ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/IR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/IS/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/IT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/JE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/JM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/JO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/JP/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/KE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/KG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/KH/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/KN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/KR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/KW/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/KY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/KZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LB/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LC/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LK/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LS/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LU/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LV/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/LY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MC/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MD/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/ME/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MF/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MK/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/ML/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MP/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MQ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MU/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MV/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MW/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MX/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/MZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NC/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NL/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NP/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/NZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/OM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PF/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PH/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PK/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PL/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PS/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/PY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/QA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/RE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/RO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/RS/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/RU/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/RW/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SB/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SC/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SD/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SK/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SL/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SS/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SV/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SX/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/SZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TC/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TD/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TH/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TJ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TL/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TO/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TR/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TW/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/TZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/UA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/UG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/US/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/UY/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/UZ/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/VA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/VC/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/VE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/VG/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/VI/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/VN/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/VU/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/WS/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/YE/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/YT/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/ZA/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/ZM/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[https://www.facebook.com/biz/directory/ZW/ is a broken link. HTTP status code: 404=Not Found]]>
+    </line>
+    <line>
+      <![CDATA[-----softare Testing-----]]>
+    </line>
+    <line>
+      <![CDATA[count begin start Total links=5]]>
+    </line>
+    <line>
+      <![CDATA[https://www.flipkart.com/flipkart-minutes-store?marketplace=HYPERLOCAL&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.HPVQFYHAHC9Q&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Minutes_HPVQFYHAHC9Q&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=HPVQFYHAHC9Q is a broken link. HTTP status code: 403=Forbidden]]>
+    </line>
+    <line>
+      <![CDATA[https://www.flipkart.com/mobile-phones-store?param=4111&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.AH1NTIJZ241Z&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles%2B%26%2BTablets_AH1NTIJZ241Z&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=AH1NTIJZ241Z is a broken link. HTTP status code: 403=Forbidden]]>
+    </line>
+    <line>
+      <![CDATA[https://www.flipkart.com/fk-sasalele-sale-tv-and-appliances-may25-at-store?param=3783&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.YX88A89LFA7C&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_TVs%2B%26%2BAppliances_YX88A89LFA7C&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=YX88A89LFA7C is a broken link. HTTP status code: 403=Forbidden]]>
+    </line>
+    <line>
+      <![CDATA[https://www.flipkart.com/travel/flights?param=bsd-2025-booknow&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.LE8A9JOLY9F3&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Flight%2BBookings_LE8A9JOLY9F3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=LE8A9JOLY9F3 is a broken link. HTTP status code: 403=Forbidden]]>
+    </line>
+    <line>
+      <![CDATA[https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.XO8YX5A5U8SC&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Grocery_XO8YX5A5U8SC&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L0_view-all&cid=XO8YX5A5U8SC is a broken link. HTTP status code: 403=Forbidden]]>
+    </line>
+    <line>
+      <![CDATA[हिन्दी]]>
     </line>
     <line>
       <![CDATA[Username = chiragpatel@infosystechnologies.com]]>
@@ -979,17 +922,365 @@
     <line>
       <![CDATA[button name = Log In]]>
     </line>
+    <line>
+      <![CDATA[Total links=115]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://mail.rediff.com/cgi-bin/login.cgi]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://money.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://workmail.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://businessemail.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://gurus.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://tv.rediff.com/?utm_source=rediff_home_icon&utm_medium=pc&utm_campaign=redifftv&utm_content=redifftv_rediff_home_icon_pc]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://register.rediff.com/utilities/newforgot/index.php?FormName=showlogin]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://register.rediff.com/register/register.php?FormName=user_details]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/india-vs-pakistan-memories-dont-matter/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/india-vs-pakistan-memories-dont-matter/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-india-pakistan-6-duels-you-cant-miss/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-india-pakistan-6-duels-you-cant-miss/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/womens-asia-cup-hockey-india-held-to-draw-but-stay-in-race-for-final/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/womens-asia-cup-hockey-india-held-to-draw-but-stay-in-race-for-final/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-omans-most-capped-player-jatinder-paaji/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-omans-most-capped-player-jatinder-paaji/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/lot-of-bidders-to-sponsor-team-indias-new-jersey-rajiv-shukla-dream-11-bcci/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/lot-of-bidders-to-sponsor-team-indias-new-jersey-rajiv-shukla-dream-11-bcci/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/indias-5-memorable-t20-wins-vs-pakistan/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/indias-5-memorable-t20-wins-vs-pakistan/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-2025-points-table-india-pakistan-sri-lanka-bangladesh-afghanistan-oman-uae/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-2025-points-table-india-pakistan-sri-lanka-bangladesh-afghanistan-oman-uae/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-no-one-is-asking-for-india-pakistan-tickets/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-no-one-is-asking-for-india-pakistan-tickets/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/3-hour-pit-stop-is-not-compassion-cong-targets-modi-on-manipur-visit/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/3-hour-pit-stop-is-not-compassion-cong-targets-modi-on-manipur-visit/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/from-bhu-to-kathmandu-new-nepal-pm-shares-deep-india-connect/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/from-bhu-to-kathmandu-new-nepal-pm-shares-deep-india-connect/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/modi-visits-manipur-1st-since-2023-unrest-launches-project/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/modi-visits-manipur-1st-since-2023-unrest-launches-project/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/honeymoon-murder-sonam-raghuvanshi-files-bail-plea/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/honeymoon-murder-sonam-raghuvanshi-files-bail-plea/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/sikh-woman-raped-in-racially-aggravated-assault-in-uk/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/sikh-woman-raped-in-racially-aggravated-assault-in-uk/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business/interview/lenovo-to-double-make-in-india-devices-in-2-years/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business/interview/lenovo-to-double-make-in-india-devices-in-2-years/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/esha-singh-wins-womens-air-pistol-world-cup-gold/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/esha-singh-wins-womens-air-pistol-world-cup-gold/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/charlie-kirks-wife-breaks-her-silence-on-his-brutal-death/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/charlie-kirks-wife-breaks-her-silence-on-his-brutal-death/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/drink-spiking-sexual-assault-claims-rock-england-cricket/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/drink-spiking-sexual-assault-claims-rock-england-cricket/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business/report/avg-yield-of-indian-reits-at-6-75-is-higher-than-us/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business/report/avg-yield-of-indian-reits-at-6-75-is-higher-than-us/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/mumbai-blasts-acquitted-man-seeks-rs-9-cr-compensation/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/mumbai-blasts-acquitted-man-seeks-rs-9-cr-compensation/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/satwik-chirag-make-seasons-first-final-at-hong-kong-open/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/satwik-chirag-make-seasons-first-final-at-hong-kong-open/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/pride-at-stake-as-india-pakistan-clash-in-asia-cup-gill-kuldeep-sundar/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/pride-at-stake-as-india-pakistan-clash-in-asia-cup-gill-kuldeep-sundar/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/us-beheading-indian-motel-managers-funeral-today-fundraiser-tops-200k/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/us-beheading-indian-motel-managers-funeral-today-fundraiser-tops-200k/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/nepal-president-dissolves-house-parliamentary-polls-in-march-next-year/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/nepal-president-dissolves-house-parliamentary-polls-in-march-next-year/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/israeli-air-strikes-kill-65-in-gaza-including-14-from-one-family/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/israeli-air-strikes-kill-65-in-gaza-including-14-from-one-family/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/several-killed-as-truck-ploughs-into-ganesha-procession-in-karnataka/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/several-killed-as-truck-ploughs-into-ganesha-procession-in-karnataka/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/law-student-father-injured-after-twin-explosions-at-punjab-home/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/law-student-father-injured-after-twin-explosions-at-punjab-home/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/world-boxing-minakshi-storms-into-semis-assures-india-of-medal/20250912.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/world-boxing-minakshi-storms-into-semis-assures-india-of-medal/20250912.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/salt-destroys-sa-bowlers-as-eng-breach-300-run-mark/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/salt-destroys-sa-bowlers-as-eng-breach-300-run-mark/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/its-official-modi-to-visit-manipur-tomorrow/20250912.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/its-official-modi-to-visit-manipur-tomorrow/20250912.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/india-votes-for-un-resolution-on-palestine-two-state-solution/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/india-votes-for-un-resolution-on-palestine-two-state-solution/20250913.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :http://in.rediff.com/disclaim.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :http://www.rediff.com/w3c/policy.html]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-09-12T09:34:20 IST" name="Suite" finished-at="2025-09-12T09:35:49 IST" duration-ms="88833">
+  <suite started-at="2025-09-13T18:10:47 IST" name="Suite" finished-at="2025-09-13T18:14:08 IST" duration-ms="201220">
     <groups>
     </groups>
-    <test started-at="2025-09-12T09:34:20 IST" name="Test" finished-at="2025-09-12T09:35:49 IST" duration-ms="88833">
+    <test started-at="2025-09-13T18:10:47 IST" name="Test" finished-at="2025-09-13T18:14:08 IST" duration-ms="201220">
       <class name="test.RediffValidation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RediffValidation@31edaa7d]" started-at="2025-09-12T09:35:17 IST" name="setUp" finished-at="2025-09-12T09:35:18 IST" duration-ms="1202" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RediffValidation@55f616cf]" started-at="2025-09-13T18:13:29 IST" name="setUp" finished-at="2025-09-13T18:13:30 IST" duration-ms="750" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Redfflogin()[pri:0, instance:test.RediffValidation@31edaa7d]" started-at="2025-09-12T09:35:18 IST" name="Redfflogin" finished-at="2025-09-12T09:35:23 IST" duration-ms="5458" status="PASS">
+        <test-method signature="Redfflogin()[pri:0, instance:test.RediffValidation@55f616cf]" started-at="2025-09-13T18:13:30 IST" name="Redfflogin" finished-at="2025-09-13T18:14:05 IST" duration-ms="35121" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Username = chiragpatel@infosystechnologies.com]]>
@@ -1000,29 +1291,395 @@
             <line>
               <![CDATA[button name = Log In]]>
             </line>
+            <line>
+              <![CDATA[Total links=115]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://mail.rediff.com/cgi-bin/login.cgi]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://money.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://workmail.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://businessemail.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://gurus.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://tv.rediff.com/?utm_source=rediff_home_icon&utm_medium=pc&utm_campaign=redifftv&utm_content=redifftv_rediff_home_icon_pc]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://register.rediff.com/utilities/newforgot/index.php?FormName=showlogin]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://register.rediff.com/register/register.php?FormName=user_details]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/india-vs-pakistan-memories-dont-matter/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/india-vs-pakistan-memories-dont-matter/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-india-pakistan-6-duels-you-cant-miss/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-india-pakistan-6-duels-you-cant-miss/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/womens-asia-cup-hockey-india-held-to-draw-but-stay-in-race-for-final/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/womens-asia-cup-hockey-india-held-to-draw-but-stay-in-race-for-final/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-omans-most-capped-player-jatinder-paaji/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-omans-most-capped-player-jatinder-paaji/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/lot-of-bidders-to-sponsor-team-indias-new-jersey-rajiv-shukla-dream-11-bcci/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/lot-of-bidders-to-sponsor-team-indias-new-jersey-rajiv-shukla-dream-11-bcci/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/indias-5-memorable-t20-wins-vs-pakistan/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/indias-5-memorable-t20-wins-vs-pakistan/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-2025-points-table-india-pakistan-sri-lanka-bangladesh-afghanistan-oman-uae/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-2025-points-table-india-pakistan-sri-lanka-bangladesh-afghanistan-oman-uae/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-no-one-is-asking-for-india-pakistan-tickets/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/asia-cup-no-one-is-asking-for-india-pakistan-tickets/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/3-hour-pit-stop-is-not-compassion-cong-targets-modi-on-manipur-visit/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/3-hour-pit-stop-is-not-compassion-cong-targets-modi-on-manipur-visit/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/from-bhu-to-kathmandu-new-nepal-pm-shares-deep-india-connect/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/from-bhu-to-kathmandu-new-nepal-pm-shares-deep-india-connect/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/modi-visits-manipur-1st-since-2023-unrest-launches-project/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/modi-visits-manipur-1st-since-2023-unrest-launches-project/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/honeymoon-murder-sonam-raghuvanshi-files-bail-plea/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/honeymoon-murder-sonam-raghuvanshi-files-bail-plea/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/sikh-woman-raped-in-racially-aggravated-assault-in-uk/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/sikh-woman-raped-in-racially-aggravated-assault-in-uk/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business/interview/lenovo-to-double-make-in-india-devices-in-2-years/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business/interview/lenovo-to-double-make-in-india-devices-in-2-years/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/esha-singh-wins-womens-air-pistol-world-cup-gold/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/esha-singh-wins-womens-air-pistol-world-cup-gold/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/charlie-kirks-wife-breaks-her-silence-on-his-brutal-death/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/charlie-kirks-wife-breaks-her-silence-on-his-brutal-death/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/drink-spiking-sexual-assault-claims-rock-england-cricket/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/drink-spiking-sexual-assault-claims-rock-england-cricket/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business/report/avg-yield-of-indian-reits-at-6-75-is-higher-than-us/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business/report/avg-yield-of-indian-reits-at-6-75-is-higher-than-us/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/mumbai-blasts-acquitted-man-seeks-rs-9-cr-compensation/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/mumbai-blasts-acquitted-man-seeks-rs-9-cr-compensation/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/satwik-chirag-make-seasons-first-final-at-hong-kong-open/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/satwik-chirag-make-seasons-first-final-at-hong-kong-open/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/pride-at-stake-as-india-pakistan-clash-in-asia-cup-gill-kuldeep-sundar/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/pride-at-stake-as-india-pakistan-clash-in-asia-cup-gill-kuldeep-sundar/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/us-beheading-indian-motel-managers-funeral-today-fundraiser-tops-200k/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/us-beheading-indian-motel-managers-funeral-today-fundraiser-tops-200k/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/nepal-president-dissolves-house-parliamentary-polls-in-march-next-year/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/nepal-president-dissolves-house-parliamentary-polls-in-march-next-year/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/israeli-air-strikes-kill-65-in-gaza-including-14-from-one-family/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/israeli-air-strikes-kill-65-in-gaza-including-14-from-one-family/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/several-killed-as-truck-ploughs-into-ganesha-procession-in-karnataka/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/several-killed-as-truck-ploughs-into-ganesha-procession-in-karnataka/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/law-student-father-injured-after-twin-explosions-at-punjab-home/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/law-student-father-injured-after-twin-explosions-at-punjab-home/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/world-boxing-minakshi-storms-into-semis-assures-india-of-medal/20250912.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/world-boxing-minakshi-storms-into-semis-assures-india-of-medal/20250912.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/salt-destroys-sa-bowlers-as-eng-breach-300-run-mark/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/salt-destroys-sa-bowlers-as-eng-breach-300-run-mark/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/its-official-modi-to-visit-manipur-tomorrow/20250912.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/its-official-modi-to-visit-manipur-tomorrow/20250912.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/india-votes-for-un-resolution-on-palestine-two-state-solution/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/india-votes-for-un-resolution-on-palestine-two-state-solution/20250913.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :http://in.rediff.com/disclaim.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :http://www.rediff.com/w3c/policy.html]]>
+            </line>
           </reporter-output>
         </test-method> <!-- Redfflogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.RediffValidation@31edaa7d]" started-at="2025-09-12T09:35:23 IST" name="tearDown" finished-at="2025-09-12T09:35:23 IST" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.RediffValidation@55f616cf]" started-at="2025-09-13T18:14:05 IST" name="tearDown" finished-at="2025-09-13T18:14:05 IST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.RediffValidation -->
       <class name="test.Flipkart">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Flipkart@1890516e]" started-at="2025-09-12T09:35:01 IST" name="setUp" finished-at="2025-09-12T09:35:02 IST" duration-ms="1092" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Flipkart@671a5887]" started-at="2025-09-13T18:13:16 IST" name="setUp" finished-at="2025-09-13T18:13:17 IST" duration-ms="779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="software()[pri:0, instance:test.Flipkart@1890516e]" started-at="2025-09-12T09:35:02 IST" name="software" finished-at="2025-09-12T09:35:06 IST" duration-ms="3991" status="PASS">
+        <test-method signature="Menul_Links()[pri:0, instance:test.Flipkart@671a5887]" started-at="2025-09-13T18:13:17 IST" name="Menul_Links" finished-at="2025-09-13T18:13:22 IST" duration-ms="5170" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[count begin start Total links=5]]>
+            </line>
+            <line>
+              <![CDATA[https://www.flipkart.com/flipkart-minutes-store?marketplace=HYPERLOCAL&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.HPVQFYHAHC9Q&otracker=hp_rich_navigation_1_1.navigationCard.RICH_NAVIGATION_Minutes_HPVQFYHAHC9Q&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_1_L0_view-all&cid=HPVQFYHAHC9Q is a broken link. HTTP status code: 403=Forbidden]]>
+            </line>
+            <line>
+              <![CDATA[https://www.flipkart.com/mobile-phones-store?param=4111&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.AH1NTIJZ241Z&otracker=hp_rich_navigation_2_1.navigationCard.RICH_NAVIGATION_Mobiles%2B%26%2BTablets_AH1NTIJZ241Z&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_2_L0_view-all&cid=AH1NTIJZ241Z is a broken link. HTTP status code: 403=Forbidden]]>
+            </line>
+            <line>
+              <![CDATA[https://www.flipkart.com/fk-sasalele-sale-tv-and-appliances-may25-at-store?param=3783&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.YX88A89LFA7C&otracker=hp_rich_navigation_6_1.navigationCard.RICH_NAVIGATION_TVs%2B%26%2BAppliances_YX88A89LFA7C&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_6_L0_view-all&cid=YX88A89LFA7C is a broken link. HTTP status code: 403=Forbidden]]>
+            </line>
+            <line>
+              <![CDATA[https://www.flipkart.com/travel/flights?param=bsd-2025-booknow&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.LE8A9JOLY9F3&otracker=hp_rich_navigation_7_1.navigationCard.RICH_NAVIGATION_Flight%2BBookings_LE8A9JOLY9F3&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_7_L0_view-all&cid=LE8A9JOLY9F3 is a broken link. HTTP status code: 403=Forbidden]]>
+            </line>
+            <line>
+              <![CDATA[https://www.flipkart.com/grocery-supermart-store?marketplace=GROCERY&fm=neo%2Fmerchandising&iid=M_c2ca5f08-4e59-4715-bbc6-e231ab7a6eb5_1_X1NCR146KC29_MC.XO8YX5A5U8SC&otracker=hp_rich_navigation_9_1.navigationCard.RICH_NAVIGATION_Grocery_XO8YX5A5U8SC&otracker1=hp_rich_navigation_PINNED_neo%2Fmerchandising_NA_NAV_EXPANDABLE_navigationCard_cc_9_L0_view-all&cid=XO8YX5A5U8SC is a broken link. HTTP status code: 403=Forbidden]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- software -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Flipkart@1890516e]" started-at="2025-09-12T09:35:06 IST" name="tearDown" finished-at="2025-09-12T09:35:06 IST" duration-ms="214" status="PASS">
+        </test-method> <!-- Menul_Links -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Flipkart@671a5887]" started-at="2025-09-13T18:13:22 IST" name="tearDown" finished-at="2025-09-13T18:13:22 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.Flipkart -->
       <class name="test.DataProviderTest">
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderTest@93081b6]" started-at="2025-09-12T09:34:47 IST" name="validLogin" data-provider="dp" finished-at="2025-09-12T09:34:47 IST" duration-ms="12" status="PASS">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderTest@dd0c991]" started-at="2025-09-13T18:11:01 IST" name="validLogin" data-provider="dp" finished-at="2025-09-13T18:11:01 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1046,78 +1703,92 @@
         </test-method> <!-- validLogin -->
       </class> <!-- test.DataProviderTest -->
       <class name="test.StaleElement_Exp">
-        <test-method signature="handleStaleElement()[pri:0, instance:test.StaleElement_Exp@26adfd2d]" started-at="2025-09-12T09:35:23 IST" name="handleStaleElement" finished-at="2025-09-12T09:35:49 IST" duration-ms="25665" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- handleStaleElement -->
-      </class> <!-- test.StaleElement_Exp -->
-      <class name="test.LocatorsExample">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LocatorsExample@16c069df]" started-at="2025-09-12T09:35:09 IST" name="setUp" finished-at="2025-09-12T09:35:10 IST" duration-ms="1222" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.StaleElement_Exp@1356d4d4]" started-at="2025-09-13T18:14:05 IST" name="setUp" finished-at="2025-09-13T18:14:06 IST" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="locatorDemo()[pri:0, instance:test.LocatorsExample@16c069df]" started-at="2025-09-12T09:35:10 IST" name="locatorDemo" finished-at="2025-09-12T09:35:16 IST" duration-ms="6169" status="PASS">
+        <test-method signature="handleStaleElement()[pri:0, instance:test.StaleElement_Exp@1356d4d4]" started-at="2025-09-13T18:14:06 IST" name="handleStaleElement" finished-at="2025-09-13T18:14:08 IST" duration-ms="2468" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- locatorDemo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LocatorsExample@16c069df]" started-at="2025-09-12T09:35:16 IST" name="tearDown" finished-at="2025-09-12T09:35:17 IST" duration-ms="258" status="PASS">
+        </test-method> <!-- handleStaleElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.StaleElement_Exp@1356d4d4]" started-at="2025-09-13T18:14:08 IST" name="tearDown" finished-at="2025-09-13T18:14:08 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.StaleElement_Exp -->
+      <class name="test.LocatorsExample">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LocatorsExample@3c947bc5]" started-at="2025-09-13T18:13:25 IST" name="setUp" finished-at="2025-09-13T18:13:26 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GooglelocatorDemo()[pri:0, instance:test.LocatorsExample@3c947bc5]" started-at="2025-09-13T18:13:26 IST" name="GooglelocatorDemo" finished-at="2025-09-13T18:13:29 IST" duration-ms="2657" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[हिन्दी]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GooglelocatorDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LocatorsExample@3c947bc5]" started-at="2025-09-13T18:13:29 IST" name="tearDown" finished-at="2025-09-13T18:13:29 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.LocatorsExample -->
       <class name="test.Exa_Checkbox">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Exa_Checkbox@7ba8c737]" started-at="2025-09-12T09:34:54 IST" name="setUp" finished-at="2025-09-12T09:34:55 IST" duration-ms="1329" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Exa_Checkbox@36d585c]" started-at="2025-09-13T18:11:26 IST" name="setUp" finished-at="2025-09-13T18:11:27 IST" duration-ms="808" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Testcheckbox()[pri:0, instance:test.Exa_Checkbox@7ba8c737]" started-at="2025-09-12T09:34:55 IST" name="Testcheckbox" finished-at="2025-09-12T09:35:00 IST" duration-ms="5325" status="PASS">
+        <test-method signature="Testcheckbox()[pri:0, instance:test.Exa_Checkbox@36d585c]" started-at="2025-09-13T18:11:27 IST" name="Testcheckbox" finished-at="2025-09-13T18:11:32 IST" duration-ms="5141" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[[[[ChromeDriver: chrome on windows (e36b83b474627b1bdf6439ae5654bd9f)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+              <![CDATA[[[[[ChromeDriver: chrome on windows (8a8e35c3e7bfad9edefb66227aa757e3)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
             </line>
             <line>
-              <![CDATA[[[[[ChromeDriver: chrome on windows (e36b83b474627b1bdf6439ae5654bd9f)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+              <![CDATA[[[[[ChromeDriver: chrome on windows (8a8e35c3e7bfad9edefb66227aa757e3)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
             </line>
             <line>
-              <![CDATA[[[[[ChromeDriver: chrome on windows (e36b83b474627b1bdf6439ae5654bd9f)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+              <![CDATA[[[[[ChromeDriver: chrome on windows (8a8e35c3e7bfad9edefb66227aa757e3)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
             </line>
           </reporter-output>
         </test-method> <!-- Testcheckbox -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Exa_Checkbox@7ba8c737]" started-at="2025-09-12T09:35:01 IST" name="tearDown" finished-at="2025-09-12T09:35:01 IST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Exa_Checkbox@36d585c]" started-at="2025-09-13T18:11:32 IST" name="tearDown" finished-at="2025-09-13T18:11:32 IST" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.Exa_Checkbox -->
       <class name="test.GoogleTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.GoogleTest@15a04efb]" started-at="2025-09-12T09:35:06 IST" name="setUp" finished-at="2025-09-12T09:35:07 IST" duration-ms="1110" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.GoogleTest@5552768b]" started-at="2025-09-13T18:13:22 IST" name="setUp" finished-at="2025-09-13T18:13:23 IST" duration-ms="851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTitle()[pri:0, instance:test.GoogleTest@15a04efb]" started-at="2025-09-12T09:35:07 IST" name="verifyTitle" finished-at="2025-09-12T09:35:09 IST" duration-ms="1486" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:test.GoogleTest@5552768b]" started-at="2025-09-13T18:13:23 IST" name="verifyTitle" finished-at="2025-09-13T18:13:25 IST" duration-ms="2307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GoogleTest@15a04efb]" started-at="2025-09-12T09:35:09 IST" name="tearDown" finished-at="2025-09-12T09:35:09 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GoogleTest@5552768b]" started-at="2025-09-13T18:13:25 IST" name="tearDown" finished-at="2025-09-13T18:13:25 IST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.GoogleTest -->
       <class name="test.Assertions_Test">
-        <test-method signature="HardAssert()[pri:0, instance:test.Assertions_Test@2415fc55]" started-at="2025-09-12T09:34:38 IST" name="HardAssert" finished-at="2025-09-12T09:34:38 IST" duration-ms="27" status="FAIL">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Assertions_Test@236e3f4e]" started-at="2025-09-13T18:10:59 IST" name="setUp" finished-at="2025-09-13T18:11:00 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="HardAssert()[pri:0, instance:test.Assertions_Test@236e3f4e]" started-at="2025-09-13T18:11:00 IST" name="HardAssert" finished-at="2025-09-13T18:11:01 IST" duration-ms="977" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[expected [Facebook – log in or sign up123] but found [Facebook – log in or sign up]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: expected [Facebook – log in or sign up123] but found [Facebook – log in or sign up]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertEqualsImpl(Assert.java:150)
 at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:1079)
-at org.testng.Assert.assertEquals(Assert.java:1043)
-at org.testng.Assert.assertEquals(Assert.java:1089)
-at test.Assertions_Test.HardAssert(Assertions_Test.java:17)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at test.Assertions_Test.HardAssert(Assertions_Test.java:39)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1150,18 +1821,20 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HardAssert -->
-        <test-method signature="SoftAss()[pri:0, instance:test.Assertions_Test@2415fc55]" started-at="2025-09-12T09:34:38 IST" name="SoftAss" finished-at="2025-09-12T09:34:38 IST" duration-ms="8" status="FAIL">
+        <test-method signature="SoftAss()[pri:0, instance:test.Assertions_Test@236e3f4e]" started-at="2025-09-13T18:11:01 IST" name="SoftAss" finished-at="2025-09-13T18:11:01 IST" duration-ms="5" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
+Username mismatch! expected [correctuser] but found [testuser],
+Email mismatch! expected [test@correct.com] but found [test@example.com]]]>
             </message>
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
+Username mismatch! expected [correctuser] but found [testuser],
+Email mismatch! expected [test@correct.com] but found [test@example.com]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at test.Assertions_Test.SoftAss(Assertions_Test.java:13)
+at test.Assertions_Test.SoftAss(Assertions_Test.java:26)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -1194,680 +1867,684 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SoftAss -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Assertions_Test@236e3f4e]" started-at="2025-09-13T18:11:01 IST" name="tearDown" finished-at="2025-09-13T18:11:01 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test.Assertions_Test -->
       <class name="test.EdurekaLogin">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EdurekaLogin@cd1e646]" started-at="2025-09-12T09:34:47 IST" name="setUp" finished-at="2025-09-12T09:34:48 IST" duration-ms="1038" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EdurekaLogin@69fb6037]" started-at="2025-09-13T18:11:01 IST" name="setUp" finished-at="2025-09-13T18:11:02 IST" duration-ms="977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Edureka()[pri:0, instance:test.EdurekaLogin@cd1e646]" started-at="2025-09-12T09:34:48 IST" name="Edureka" finished-at="2025-09-12T09:34:54 IST" duration-ms="5219" status="PASS">
+        <test-method signature="EdurekaLogin()[pri:0, instance:test.EdurekaLogin@69fb6037]" started-at="2025-09-13T18:11:02 IST" name="EdurekaLogin" finished-at="2025-09-13T18:11:26 IST" duration-ms="23821" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Edureka -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.EdurekaLogin@cd1e646]" started-at="2025-09-12T09:34:54 IST" name="tearDown" finished-at="2025-09-12T09:34:54 IST" duration-ms="239" status="PASS">
+        </test-method> <!-- EdurekaLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.EdurekaLogin@69fb6037]" started-at="2025-09-13T18:11:26 IST" name="tearDown" finished-at="2025-09-13T18:11:26 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.EdurekaLogin -->
-      <class name="test.CountCountry">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.CountCountry@24c22fe]" started-at="2025-09-12T09:34:38 IST" name="setUp" finished-at="2025-09-12T09:34:39 IST" duration-ms="930" status="PASS">
+      <class name="test.Facebook_BrokenLink">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Facebook_BrokenLink@87a85e1]" started-at="2025-09-13T18:11:32 IST" name="setUp" finished-at="2025-09-13T18:11:33 IST" duration-ms="855" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="FbServiceDirectory()[pri:0, instance:test.CountCountry@24c22fe]" started-at="2025-09-12T09:34:39 IST" name="FbServiceDirectory" finished-at="2025-09-12T09:34:47 IST" duration-ms="8539" status="PASS">
+        <test-method signature="FbServiceDirectory()[pri:0, instance:test.Facebook_BrokenLink@87a85e1]" started-at="2025-09-13T18:11:33 IST" name="FbServiceDirectory" finished-at="2025-09-13T18:13:16 IST" duration-ms="102373" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Facebook services directory]]>
             </line>
             <line>
-              <![CDATA[Total links   first=210]]>
+              <![CDATA[count begin start Total links=210]]>
             </line>
             <line>
-              <![CDATA[Text: Andorra - Link: https://www.facebook.com/biz/directory/AD/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AD/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: United Arab Emirates - Link: https://www.facebook.com/biz/directory/AE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Afghanistan - Link: https://www.facebook.com/biz/directory/AF/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AF/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Antigua - Link: https://www.facebook.com/biz/directory/AG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Anguilla - Link: https://www.facebook.com/biz/directory/AI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Albania - Link: https://www.facebook.com/biz/directory/AL/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AL/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Armenia - Link: https://www.facebook.com/biz/directory/AM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Angola - Link: https://www.facebook.com/biz/directory/AO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Argentina - Link: https://www.facebook.com/biz/directory/AR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Austria - Link: https://www.facebook.com/biz/directory/AT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Australia - Link: https://www.facebook.com/biz/directory/AU/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AU/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Aruba - Link: https://www.facebook.com/biz/directory/AW/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AW/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Azerbaijan - Link: https://www.facebook.com/biz/directory/AZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/AZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Bosnia and Herzegovina - Link: https://www.facebook.com/biz/directory/BA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Barbados - Link: https://www.facebook.com/biz/directory/BB/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BB/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Bangladesh - Link: https://www.facebook.com/biz/directory/BD/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BD/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Belgium - Link: https://www.facebook.com/biz/directory/BE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Burkina Faso - Link: https://www.facebook.com/biz/directory/BF/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BF/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Bulgaria - Link: https://www.facebook.com/biz/directory/BG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Bahrain - Link: https://www.facebook.com/biz/directory/BH/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BH/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Burundi - Link: https://www.facebook.com/biz/directory/BI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Benin - Link: https://www.facebook.com/biz/directory/BJ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BJ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Bermuda - Link: https://www.facebook.com/biz/directory/BM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Brunei - Link: https://www.facebook.com/biz/directory/BN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Bolivia - Link: https://www.facebook.com/biz/directory/BO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Bonaire, Saint Eustatius and Saba - Link: https://www.facebook.com/biz/directory/BQ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BQ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Brazil - Link: https://www.facebook.com/biz/directory/BR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: The Bahamas - Link: https://www.facebook.com/biz/directory/BS/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BS/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Bhutan - Link: https://www.facebook.com/biz/directory/BT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Botswana - Link: https://www.facebook.com/biz/directory/BW/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BW/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Belarus - Link: https://www.facebook.com/biz/directory/BY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Belize - Link: https://www.facebook.com/biz/directory/BZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/BZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Canada - Link: https://www.facebook.com/biz/directory/CA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Democratic Republic of the Congo - Link: https://www.facebook.com/biz/directory/CD/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CD/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Republic of the Congo - Link: https://www.facebook.com/biz/directory/CG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Switzerland - Link: https://www.facebook.com/biz/directory/CH/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CH/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Côte d'Ivoire - Link: https://www.facebook.com/biz/directory/CI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Chile - Link: https://www.facebook.com/biz/directory/CL/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CL/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Cameroon - Link: https://www.facebook.com/biz/directory/CM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: China - Link: https://www.facebook.com/biz/directory/CN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Colombia - Link: https://www.facebook.com/biz/directory/CO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Costa Rica - Link: https://www.facebook.com/biz/directory/CR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Cuba - Link: https://www.facebook.com/biz/directory/CU/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CU/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Cape Verde - Link: https://www.facebook.com/biz/directory/CV/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CV/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Curaçao - Link: https://www.facebook.com/biz/directory/CW/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CW/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Cyprus - Link: https://www.facebook.com/biz/directory/CY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Czech Republic - Link: https://www.facebook.com/biz/directory/CZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/CZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Germany - Link: https://www.facebook.com/biz/directory/DE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/DE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Djibouti - Link: https://www.facebook.com/biz/directory/DJ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/DJ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Denmark - Link: https://www.facebook.com/biz/directory/DK/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/DK/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Dominica - Link: https://www.facebook.com/biz/directory/DM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/DM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Dominican Republic - Link: https://www.facebook.com/biz/directory/DO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/DO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Algeria - Link: https://www.facebook.com/biz/directory/DZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/DZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Ecuador - Link: https://www.facebook.com/biz/directory/EC/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/EC/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Estonia - Link: https://www.facebook.com/biz/directory/EE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/EE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Egypt - Link: https://www.facebook.com/biz/directory/EG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/EG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Spain - Link: https://www.facebook.com/biz/directory/ES/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/ES/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Ethiopia - Link: https://www.facebook.com/biz/directory/ET/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/ET/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Finland - Link: https://www.facebook.com/biz/directory/FI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/FI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Fiji - Link: https://www.facebook.com/biz/directory/FJ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/FJ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Faroe Islands - Link: https://www.facebook.com/biz/directory/FO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/FO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: France - Link: https://www.facebook.com/biz/directory/FR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/FR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Gabon - Link: https://www.facebook.com/biz/directory/GA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: United Kingdom - Link: https://www.facebook.com/biz/directory/GB/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GB/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Grenada - Link: https://www.facebook.com/biz/directory/GD/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GD/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Georgia - Link: https://www.facebook.com/biz/directory/GE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: French Guiana - Link: https://www.facebook.com/biz/directory/GF/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GF/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Guernsey - Link: https://www.facebook.com/biz/directory/GG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Ghana - Link: https://www.facebook.com/biz/directory/GH/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GH/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Gibraltar - Link: https://www.facebook.com/biz/directory/GI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: The Gambia - Link: https://www.facebook.com/biz/directory/GM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Guinea - Link: https://www.facebook.com/biz/directory/GN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Guadeloupe - Link: https://www.facebook.com/biz/directory/GP/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GP/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Greece - Link: https://www.facebook.com/biz/directory/GR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Guatemala - Link: https://www.facebook.com/biz/directory/GT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Guam - Link: https://www.facebook.com/biz/directory/GU/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GU/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Guyana - Link: https://www.facebook.com/biz/directory/GY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/GY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Hong Kong - Link: https://www.facebook.com/biz/directory/HK/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/HK/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Honduras - Link: https://www.facebook.com/biz/directory/HN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/HN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Croatia - Link: https://www.facebook.com/biz/directory/HR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/HR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Haiti - Link: https://www.facebook.com/biz/directory/HT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/HT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Hungary - Link: https://www.facebook.com/biz/directory/HU/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/HU/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Indonesia - Link: https://www.facebook.com/biz/directory/ID/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/ID/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Ireland - Link: https://www.facebook.com/biz/directory/IE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/IE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Israel - Link: https://www.facebook.com/biz/directory/IL/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/IL/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Isle of Man - Link: https://www.facebook.com/biz/directory/IM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/IM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: India - Link: https://www.facebook.com/biz/directory/IN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/IN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Iraq - Link: https://www.facebook.com/biz/directory/IQ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/IQ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Iran - Link: https://www.facebook.com/biz/directory/IR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/IR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Iceland - Link: https://www.facebook.com/biz/directory/IS/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/IS/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Italy - Link: https://www.facebook.com/biz/directory/IT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/IT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Jersey - Link: https://www.facebook.com/biz/directory/JE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/JE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Jamaica - Link: https://www.facebook.com/biz/directory/JM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/JM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Jordan - Link: https://www.facebook.com/biz/directory/JO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/JO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Japan - Link: https://www.facebook.com/biz/directory/JP/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/JP/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Kenya - Link: https://www.facebook.com/biz/directory/KE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/KE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Kyrgyzstan - Link: https://www.facebook.com/biz/directory/KG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/KG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Cambodia - Link: https://www.facebook.com/biz/directory/KH/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/KH/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Saint Kitts and Nevis - Link: https://www.facebook.com/biz/directory/KN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/KN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: South Korea - Link: https://www.facebook.com/biz/directory/KR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/KR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Kuwait - Link: https://www.facebook.com/biz/directory/KW/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/KW/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Cayman Islands - Link: https://www.facebook.com/biz/directory/KY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/KY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Kazakhstan - Link: https://www.facebook.com/biz/directory/KZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/KZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Laos - Link: https://www.facebook.com/biz/directory/LA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Lebanon - Link: https://www.facebook.com/biz/directory/LB/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LB/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: St. Lucia - Link: https://www.facebook.com/biz/directory/LC/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LC/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Liechtenstein - Link: https://www.facebook.com/biz/directory/LI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Sri Lanka - Link: https://www.facebook.com/biz/directory/LK/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LK/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Liberia - Link: https://www.facebook.com/biz/directory/LR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Lesotho - Link: https://www.facebook.com/biz/directory/LS/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LS/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Lithuania - Link: https://www.facebook.com/biz/directory/LT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Luxembourg - Link: https://www.facebook.com/biz/directory/LU/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LU/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Latvia - Link: https://www.facebook.com/biz/directory/LV/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LV/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Libya - Link: https://www.facebook.com/biz/directory/LY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/LY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Morocco - Link: https://www.facebook.com/biz/directory/MA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Monaco - Link: https://www.facebook.com/biz/directory/MC/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MC/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Moldova - Link: https://www.facebook.com/biz/directory/MD/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MD/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Montenegro - Link: https://www.facebook.com/biz/directory/ME/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/ME/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Saint Martin - Link: https://www.facebook.com/biz/directory/MF/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MF/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Madagascar - Link: https://www.facebook.com/biz/directory/MG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: North Macedonia - Link: https://www.facebook.com/biz/directory/MK/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MK/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Mali - Link: https://www.facebook.com/biz/directory/ML/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/ML/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Myanmar - Link: https://www.facebook.com/biz/directory/MM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Mongolia - Link: https://www.facebook.com/biz/directory/MN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Macau - Link: https://www.facebook.com/biz/directory/MO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Northern Mariana Islands - Link: https://www.facebook.com/biz/directory/MP/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MP/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Martinique - Link: https://www.facebook.com/biz/directory/MQ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MQ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Mauritania - Link: https://www.facebook.com/biz/directory/MR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Malta - Link: https://www.facebook.com/biz/directory/MT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Mauritius - Link: https://www.facebook.com/biz/directory/MU/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MU/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Maldives - Link: https://www.facebook.com/biz/directory/MV/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MV/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Malawi - Link: https://www.facebook.com/biz/directory/MW/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MW/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Mexico - Link: https://www.facebook.com/biz/directory/MX/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MX/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Malaysia - Link: https://www.facebook.com/biz/directory/MY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Mozambique - Link: https://www.facebook.com/biz/directory/MZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/MZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Namibia - Link: https://www.facebook.com/biz/directory/NA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: New Caledonia - Link: https://www.facebook.com/biz/directory/NC/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NC/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Niger - Link: https://www.facebook.com/biz/directory/NE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Nigeria - Link: https://www.facebook.com/biz/directory/NG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Nicaragua - Link: https://www.facebook.com/biz/directory/NI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Netherlands - Link: https://www.facebook.com/biz/directory/NL/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NL/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Norway - Link: https://www.facebook.com/biz/directory/NO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Nepal - Link: https://www.facebook.com/biz/directory/NP/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NP/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: New Zealand - Link: https://www.facebook.com/biz/directory/NZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/NZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Oman - Link: https://www.facebook.com/biz/directory/OM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/OM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Panama - Link: https://www.facebook.com/biz/directory/PA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Peru - Link: https://www.facebook.com/biz/directory/PE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: French Polynesia - Link: https://www.facebook.com/biz/directory/PF/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PF/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Papua New Guinea - Link: https://www.facebook.com/biz/directory/PG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Philippines - Link: https://www.facebook.com/biz/directory/PH/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PH/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Pakistan - Link: https://www.facebook.com/biz/directory/PK/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PK/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Poland - Link: https://www.facebook.com/biz/directory/PL/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PL/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Puerto Rico - Link: https://www.facebook.com/biz/directory/PR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Palestine - Link: https://www.facebook.com/biz/directory/PS/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PS/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Portugal - Link: https://www.facebook.com/biz/directory/PT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Paraguay - Link: https://www.facebook.com/biz/directory/PY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/PY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Qatar - Link: https://www.facebook.com/biz/directory/QA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/QA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Réunion - Link: https://www.facebook.com/biz/directory/RE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/RE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Romania - Link: https://www.facebook.com/biz/directory/RO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/RO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Serbia - Link: https://www.facebook.com/biz/directory/RS/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/RS/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Russia - Link: https://www.facebook.com/biz/directory/RU/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/RU/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Rwanda - Link: https://www.facebook.com/biz/directory/RW/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/RW/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Saudi Arabia - Link: https://www.facebook.com/biz/directory/SA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Solomon Islands - Link: https://www.facebook.com/biz/directory/SB/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SB/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Seychelles - Link: https://www.facebook.com/biz/directory/SC/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SC/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Sudan - Link: https://www.facebook.com/biz/directory/SD/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SD/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Sweden - Link: https://www.facebook.com/biz/directory/SE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Singapore - Link: https://www.facebook.com/biz/directory/SG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Slovenia - Link: https://www.facebook.com/biz/directory/SI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Slovakia - Link: https://www.facebook.com/biz/directory/SK/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SK/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Sierra Leone - Link: https://www.facebook.com/biz/directory/SL/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SL/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: San Marino - Link: https://www.facebook.com/biz/directory/SM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Senegal - Link: https://www.facebook.com/biz/directory/SN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Somalia - Link: https://www.facebook.com/biz/directory/SO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Suriname - Link: https://www.facebook.com/biz/directory/SR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: South Sudan - Link: https://www.facebook.com/biz/directory/SS/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SS/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: El Salvador - Link: https://www.facebook.com/biz/directory/SV/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SV/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Sint Maarten - Link: https://www.facebook.com/biz/directory/SX/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SX/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Syria - Link: https://www.facebook.com/biz/directory/SY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Swaziland - Link: https://www.facebook.com/biz/directory/SZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/SZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Turks and Caicos Islands - Link: https://www.facebook.com/biz/directory/TC/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TC/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Chad - Link: https://www.facebook.com/biz/directory/TD/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TD/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Togo - Link: https://www.facebook.com/biz/directory/TG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Thailand - Link: https://www.facebook.com/biz/directory/TH/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TH/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Tajikistan - Link: https://www.facebook.com/biz/directory/TJ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TJ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Timor-Leste - Link: https://www.facebook.com/biz/directory/TL/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TL/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Tunisia - Link: https://www.facebook.com/biz/directory/TN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Tonga - Link: https://www.facebook.com/biz/directory/TO/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TO/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Türkiye - Link: https://www.facebook.com/biz/directory/TR/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TR/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Trinidad and Tobago - Link: https://www.facebook.com/biz/directory/TT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Taiwan - Link: https://www.facebook.com/biz/directory/TW/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TW/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Tanzania - Link: https://www.facebook.com/biz/directory/TZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/TZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Ukraine - Link: https://www.facebook.com/biz/directory/UA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/UA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Uganda - Link: https://www.facebook.com/biz/directory/UG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/UG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: United States - Link: https://www.facebook.com/biz/directory/US/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/US/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Uruguay - Link: https://www.facebook.com/biz/directory/UY/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/UY/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Uzbekistan - Link: https://www.facebook.com/biz/directory/UZ/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/UZ/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Vatican City - Link: https://www.facebook.com/biz/directory/VA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/VA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Saint Vincent and the Grenadines - Link: https://www.facebook.com/biz/directory/VC/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/VC/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Venezuela - Link: https://www.facebook.com/biz/directory/VE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/VE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: British Virgin Islands - Link: https://www.facebook.com/biz/directory/VG/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/VG/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: US Virgin Islands - Link: https://www.facebook.com/biz/directory/VI/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/VI/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Vietnam - Link: https://www.facebook.com/biz/directory/VN/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/VN/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Vanuatu - Link: https://www.facebook.com/biz/directory/VU/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/VU/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Samoa - Link: https://www.facebook.com/biz/directory/WS/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/WS/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Yemen - Link: https://www.facebook.com/biz/directory/YE/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/YE/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Mayotte - Link: https://www.facebook.com/biz/directory/YT/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/YT/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: South Africa - Link: https://www.facebook.com/biz/directory/ZA/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/ZA/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Zambia - Link: https://www.facebook.com/biz/directory/ZM/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/ZM/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
-              <![CDATA[Text: Zimbabwe - Link: https://www.facebook.com/biz/directory/ZW/]]>
+              <![CDATA[https://www.facebook.com/biz/directory/ZW/ is a broken link. HTTP status code: 404=Not Found]]>
             </line>
             <line>
               <![CDATA[-----softare Testing-----]]>
             </line>
           </reporter-output>
         </test-method> <!-- FbServiceDirectory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.CountCountry@24c22fe]" started-at="2025-09-12T09:34:47 IST" name="tearDown" finished-at="2025-09-12T09:34:47 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Facebook_BrokenLink@87a85e1]" started-at="2025-09-13T18:13:16 IST" name="tearDown" finished-at="2025-09-13T18:13:16 IST" duration-ms="206" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.CountCountry -->
+      </class> <!-- test.Facebook_BrokenLink -->
       <class name="test.AccessibilityTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AccessibilityTest@34b9f960]" started-at="2025-09-12T09:34:20 IST" name="setUp" finished-at="2025-09-12T09:34:22 IST" duration-ms="2151" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AccessibilityTest@ba54932]" started-at="2025-09-13T18:10:47 IST" name="setUp" finished-at="2025-09-13T18:10:49 IST" duration-ms="1281" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AccessibilityCheck()[pri:0, instance:test.AccessibilityTest@34b9f960]" started-at="2025-09-12T09:34:23 IST" name="AccessibilityCheck" finished-at="2025-09-12T09:34:37 IST" duration-ms="14529" status="PASS">
+        <test-method signature="AccessibilityCheck()[pri:0, instance:test.AccessibilityTest@ba54932]" started-at="2025-09-13T18:10:49 IST" name="AccessibilityCheck" finished-at="2025-09-13T18:10:59 IST" duration-ms="10547" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Accessibility Violations:]]>
@@ -1901,54 +2578,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
             <line>
               <![CDATA[ - [.logo-white]]]>
-            </line>
-            <line>
-              <![CDATA[Violation ID: color-contrast]]>
-            </line>
-            <line>
-              <![CDATA[Description: Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds]]>
-            </line>
-            <line>
-              <![CDATA[Impact: serious]]>
-            </line>
-            <line>
-              <![CDATA[Elements:]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #Snapshot2]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #price]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #Instrument1]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #SnapshotDifference2 > .positive]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, #SnapshotDifference1 > .positive]]]>
-            </line>
-            <line>
-              <![CDATA[Violation ID: definition-list]]>
-            </line>
-            <line>
-              <![CDATA[Description: Ensures <dl> elements are structured correctly]]>
-            </line>
-            <line>
-              <![CDATA[Impact: serious]]>
-            </line>
-            <line>
-              <![CDATA[Elements:]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, .datetime]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, .price]]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, .change_value_percentage]]]>
             </line>
             <line>
               <![CDATA[Violation ID: duplicate-id]]>
@@ -2140,36 +2769,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
               <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(4) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
             </line>
             <line>
-              <![CDATA[Violation ID: meta-viewport]]>
-            </line>
-            <line>
-              <![CDATA[Description: Ensures <meta name="viewport"> does not disable text scaling and zooming]]>
-            </line>
-            <line>
-              <![CDATA[Impact: critical]]>
-            </line>
-            <line>
-              <![CDATA[Elements:]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, meta[name="viewport"]]]]>
-            </line>
-            <line>
-              <![CDATA[Violation ID: region]]>
-            </line>
-            <line>
-              <![CDATA[Description: Ensures all page content is contained by landmarks]]>
-            </line>
-            <line>
-              <![CDATA[Impact: moderate]]>
-            </line>
-            <line>
-              <![CDATA[Elements:]]>
-            </line>
-            <line>
-              <![CDATA[ - [#ExternalWebContentExternalIFrame, .snapData]]]>
-            </line>
-            <line>
               <![CDATA[Violation ID: role-img-alt]]>
             </line>
             <line>
@@ -2186,13 +2785,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </line>
           </reporter-output>
         </test-method> <!-- AccessibilityCheck -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AccessibilityTest@34b9f960]" started-at="2025-09-12T09:34:37 IST" name="tearDown" finished-at="2025-09-12T09:34:38 IST" duration-ms="330" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AccessibilityTest@ba54932]" started-at="2025-09-13T18:10:59 IST" name="tearDown" finished-at="2025-09-13T18:10:59 IST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.AccessibilityTest -->
       <class name="test.MyTest">
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.MyTest@2bec854f]" started-at="2025-09-12T09:35:17 IST" name="testLogin" data-provider="dp" finished-at="2025-09-12T09:35:17 IST" duration-ms="5" status="PASS">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.MyTest@609db43b]" started-at="2025-09-13T18:13:29 IST" name="testLogin" data-provider="dp" finished-at="2025-09-13T18:13:29 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>

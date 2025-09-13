@@ -29,7 +29,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.34.0</version>
+			<version>4.35.0</version>
 		</dependency>
 			<dependency>
             <groupId>org.testng</groupId>
@@ -74,14 +74,10 @@
 		    <version>5.0.3</version> <!-- Use the latest version -->
 		</dependency>
 		<dependency>
-			<groupId>io.qameta.allure</groupId>
-			<artifactId>allure-testng</artifactId>
-			<version>2.23.0</version>
-		</dependency>	
-				<dependency>
+
 		    <groupId>com.aventstack</groupId>
 		    <artifactId>extentreports</artifactId>
-		    <version>5.1.0</version>
+		    <version>5.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>
@@ -104,3 +100,9 @@
 </dependencies>
 
 </project>
+<!--
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.23.0</version>
+		</dependency>	
+				<dependency>-->

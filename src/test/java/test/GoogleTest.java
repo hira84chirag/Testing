@@ -12,7 +12,7 @@ import test.BaseTest;
 public class GoogleTest extends BaseTest {
 
     @Test
-    public void verifyTitle() throws AWTException {
+    public void verifyTitle() throws AWTException, InterruptedException {
     	driver.get(prop.getProperty("fburl"));
         String title = driver.getTitle();
         Assert.assertEquals(title, "Facebook – log in or sign up");

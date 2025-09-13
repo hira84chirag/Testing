@@ -22,7 +22,7 @@ public class Base {
 	public Properties prop;
 	
 	public void loadPropertiesFile() {
-        String path = "C://Users//Dell Enterprise//eclipse-workspace//Testing//src//test//java//Utilities//config.properties";
+        String path = System.getProperty("user.dir")+"//src//test//java//Utilities//config.properties";
         prop = new Properties();
         File propFile = new File(path); // Corrected line
 

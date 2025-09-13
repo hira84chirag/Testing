@@ -7,7 +7,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import com.investis.testing.Base;
@@ -16,6 +19,7 @@ public class BaseTest extends Base{
 	
 	static WebDriver driver;
 	String browser="chrome", url="";
+	
 	
 	@BeforeClass
 	public void setUp() {

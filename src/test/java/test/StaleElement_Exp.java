@@ -13,11 +13,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
  
-public class StaleElement_Exp {
+public class StaleElement_Exp extends BaseTest {
 
     @Test
     public void handleStaleElement() {
-        WebDriver driver = new ChromeDriver();
+        //WebDriver driver = new ChromeDriver();
         try {
             driver.get("https://www.google.fr/");
             driver.manage().window().maximize();
@@ -36,7 +36,7 @@ public class StaleElement_Exp {
                 try {
                     // Re-locate the element and interact with it
                     ele = wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("textarea[name='q']")));
-                    ele.sendKeys("Selenium" + Keys.ENTER);
+                    ele.sendKeys("Testng" + Keys.ENTER);
                     System.out.println("Search text entered successfully.");
                     staleElementPresent = false; // Exit the loop on success
                 } catch (StaleElementReferenceException e) {
@@ -44,32 +44,33 @@ public class StaleElement_Exp {
                     attempts++;
                 }
             }
-            if (staleElementPresent) {
-                System.out.println("Failed to interact with the element after multiple attempts.");
-            }
+            if (staleElementPresent)   System.out.println("Failed to interact with the element after multiple attempts.");
+            
+        	}
+            catch (NoSuchElementException e) {
+                e.getMessage();
+            }    
+            
+    } 
+} 
+   
+    
+    /*
+    // The rest of your code can go here
+    JavascriptExecutor js = (JavascriptExecutor) driver;
+    WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h3[contains(text(),'Selenium')]")));
+    js.executeScript("arguments[0].scrollIntoView();", element);
 
-            // The rest of your code can go here
-            JavascriptExecutor js = (JavascriptExecutor) driver;
-            WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//h3[contains(text(),'Selenium')]")));
-            js.executeScript("arguments[0].scrollIntoView();", element);
-
-            List<WebElement> results = driver.findElements(By.cssSelector("div.g"));
-            for (WebElement result : results) {
-                try {
-                    WebElement title = result.findElement(By.tagName("h3"));
-                    WebElement link = result.findElement(By.tagName("a"));
-                    System.out.println("Title: " + title.getText());
-                    System.out.println("Link: " + link.getAttribute("href"));
-                    System.out.println();
-                } catch (NoSuchElementException e) {
-                    // Skip non-standard results
-                }
-            }
-
-        } finally {
-            if (driver != null) {
-                driver.quit();
-            }
-        }
+    List<WebElement> results = driver.findElements(By.cssSelector("div.g"));
+    for (WebElement result : results) {
+        try {
+            WebElement title = result.findElement(By.tagName("h3"));
+            WebElement link = result.findElement(By.tagName("a"));
+            System.out.println("Title: " + title.getText());
+            System.out.println("Link: " + link.getAttribute("href"));
+            System.out.println();
+        } 
     }
-}
+
+} 
+*/
