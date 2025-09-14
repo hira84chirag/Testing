@@ -26,6 +26,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 public class CommonFun {
+	public static int count=0;
 	WebDriver driver;
 	public CommonFun(WebDriver driver) {
 		this.driver=driver;	
@@ -174,8 +175,29 @@ public class CommonFun {
              String url = element.getAttribute("href");
 
              if (url != null && !url.isEmpty()) {
-            	 checkBrokenLink(url);
-
+            	 if (count <5) {
+            	 try {
+     	            URL urltest = new URL(url);
+     	            HttpURLConnection httpURLConnect = (HttpURLConnection) urltest.openConnection();
+     	            httpURLConnect.setConnectTimeout(3000);
+     	            httpURLConnect.connect();
+     	            int responseCode = httpURLConnect.getResponseCode();
+                 	
+                 		if (httpURLConnect.getResponseCode() >= 400) {            	
+     	            	Reporter.log(url + " is a broken link." +" HTTP status code: "+responseCode+"=" + httpURLConnect.getResponseMessage());
+     	            	count++;
+     	            	} else {
+     	            	Reporter.log("URL :" + url );
+     	            	}
+                 	
+     	        } catch (Exception e) {
+     	            // This catch block handles exceptions like MalformedURLException or IOExceptions
+     	        	Reporter.log(url + " is a broken link due to an exception: " + e.getMessage());
+     	        }
+            	 }else {
+            		 break;
+            	 }
+            	 
              }
     		 
          }
@@ -205,6 +227,7 @@ public class CommonFun {
 
 	}
 	 public static void checkBrokenLink(String linkUrl) {
+	
 	        try {
 	            URL url = new URL(linkUrl);
 	            HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
@@ -212,12 +235,13 @@ public class CommonFun {
 	            httpURLConnect.connect();
 	            int responseCode = httpURLConnect.getResponseCode();
             	
-	            if (httpURLConnect.getResponseCode() >= 400) {
-            	
+            		if (httpURLConnect.getResponseCode() >= 400) {            	
 	            	Reporter.log(linkUrl + " is a broken link." +" HTTP status code: "+responseCode+"=" + httpURLConnect.getResponseMessage());
-	            } else {
+	            	count++;
+	            	} else {
 	            	Reporter.log("URL :" + linkUrl );
-	            }
+	            	}
+            	
 	        } catch (Exception e) {
 	            // This catch block handles exceptions like MalformedURLException or IOExceptions
 	        	Reporter.log(linkUrl + " is a broken link due to an exception: " + e.getMessage());
