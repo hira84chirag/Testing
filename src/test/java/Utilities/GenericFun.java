@@ -71,17 +71,13 @@ public class GenericFun {
 		wait.until(ExpectedConditions.elementToBeClickable(e)).click();
 	}
 	
+	
 	public static void SwitchToFrame(String e, WebDriver driver)
 	{
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(120));
 		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(e));
 	}
 	
-	public static void SwitchToFrame(WebElement e, WebDriver driver)
-	{
-		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(120));
-		wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(e));
-	}
 	
 	public static Alert SwitchToAlert(WebDriver driver)
 	{

@@ -11,6 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.testng.Reporter;
 
+import Utilities.Expwait;
+
 
 public class Obj_RediffValidation {
 	
@@ -20,14 +22,16 @@ public class Obj_RediffValidation {
 		WebElement uname1;
 		
 		@CacheLookup
+		@FindBy(xpath="//span[@id='div_login_error']")
+		WebElement msgval;
+		
+		@CacheLookup
 		@FindBy(css = "#password") 
 		WebElement pwd1;
 		
 		@CacheLookup
 		@FindBy(xpath  = "//button[starts-with(text(),'Log In')]") 
 		WebElement signbtn1;
-
-		
 	
 	By uname=By.cssSelector("#login1");
 	By pwd=By.cssSelector("#password");
@@ -50,18 +54,20 @@ public class Obj_RediffValidation {
 	public void enterpwd(String password) {
 		driver.findElement(pwd).sendKeys(password);
 	}
-	public void clicksignbtn() {
-
-		FluentWait<WebDriver> wait = new FluentWait<>(driver)
-	                .withTimeout(Duration.ofMinutes(5))
-	                .pollingEvery(Duration.ofMillis(500))
-	                .ignoring(NoSuchElementException.class);
-		  	  
-	//	WebDriverWait wait = new WebDriverWait(driver,Duration.ofMinutes(2));
-	//	WebElement pass= wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("//span[contains(text(),'Secured')]"))));
-		  signbtn1.click();
-		
+	public void clicksignbtn() {		
+		// wait for element
+		Expwait obj= new Expwait(signbtn1);
+		obj.webelementwait(signbtn1);	
+		// click sign in button
+		signbtn1.click();
 	}
+	
+	public void LoginValidationmsg() {
+		String str=msgval.getText();
+		Reporter.log("valdiation message =" + str); 		
+	}
+	
+	
 	public void getvalue() {
 		
 	// Get value FindBy Method.	

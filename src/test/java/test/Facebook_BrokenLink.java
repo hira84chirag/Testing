@@ -1,12 +1,8 @@
 package test;
-
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import Utilities.CommonFun;
-
-// import pom.ObjectRepo;
 
 public class Facebook_BrokenLink extends BaseTest{
 	
@@ -22,15 +18,9 @@ public class Facebook_BrokenLink extends BaseTest{
 	String classpath="//div[@class='_4-u2 _80gx _4-u8']//a";
 	CommonFun.CountLinks(driver,classpath);
 	Reporter.log("-----softare Testing-----");	  
-	 //	  Common.countclass(driver,classpath);
 
 		 
 	}
 		
 }
 
-/*
- * public void openBro(String browser,String url) { CountCountry obj=new
- * CountCountry(); browser="chrome";
- * url="https://www.facebook.com/biz/directory/"; obj.openBro(browser, url); }
- */	

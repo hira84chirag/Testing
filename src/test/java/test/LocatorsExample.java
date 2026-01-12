@@ -15,18 +15,23 @@ import org.openqa.selenium.WebElement;
 public class LocatorsExample extends BaseTest{
 	
 @Test
-	public void GooglelocatorDemo()  {
-		driver.get(prop.getProperty("Gogleurl"));
+	public void GooglelocatorDemo() throws InterruptedException  {
+		driver.get(prop.getProperty("fburl"));
         driver.manage().window().maximize();
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(200));
-        String str= driver.findElement(By.partialLinkText("हिन्दी")).getText();
-        Reporter.log(str);
-        String path="//textarea[@title='Search']";
-   //     CommonFun.WaitExpt(driver, path);
-        WebElement searchbox= driver.findElement(By.xpath(path));
-        searchbox.sendKeys(str + Keys.ENTER);
- 
-	}
+        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(500));
+        Thread.sleep(400);
+        String xpath="//input[@name='email']";
+        boolean str= driver.findElement(By.xpath(xpath)).isDisplayed();
+        if (str==true)
+        Reporter.log("logo found");
+        else Reporter.log("logo not found");
+        driver.navigate().refresh();
+        Thread.sleep(400);
+        if (str==true)
+        Reporter.log("logo found");
+        else Reporter.log("logo not found");
+
+}
 		
 }
 

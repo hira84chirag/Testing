@@ -20,16 +20,16 @@ public class Obj_Edureka {
 	@FindBy(xpath ="//button[starts-with(text(),'Log')]")
 	WebElement Loginbtn1;
 
-	@FindBy(xpath ="//input[@id='si_popup_email']")
+	@FindBy(xpath ="//input[@name='email']")
 	WebElement enterEmail;
 
-	@FindBy(xpath ="//input[@id='si_popup_passwd']")
+	@FindBy(xpath ="//input[@name='password']")
 	WebElement enterPass;
 
-	@FindBy(xpath ="//p[contains(text(),'Email address')]")
+	@FindBy(xpath ="//p[contains(text(),'Mandatory email address')]")
 	WebElement emailmsg;
 
-	@FindBy(xpath ="//p[contains(text(),'Enter Password')]")
+	@FindBy(xpath ="//input[@name='password']")
 	WebElement passmsg;
 	
 	@FindBy(xpath ="//p[contains(text(),'Sign In Failed.')]")
@@ -37,7 +37,7 @@ public class Obj_Edureka {
 
 	
 	By HomePageLogin=By.xpath("//button[contains(text(),'Log')]");
-	By Loginbtn=By.xpath("//button[starts-with(text(),'Login')]");
+	By Loginbtn=By.xpath("//button[starts-with(text(),'LOG')]");
 	// get email message from web elements
 
 	String path;
@@ -63,6 +63,13 @@ public class Obj_Edureka {
 	}
 
 	public void getLoginValue() {
+
+		WebDriverWait wait5 = new WebDriverWait(driver,Duration.ofSeconds(300));
+	    wait5.until(ExpectedConditions.elementToBeClickable(Loginbtn)).click();
+
+	    
+		WebElement loginButton = driver.findElement(Loginbtn);
+		loginButton.click();
 		
 		System.out.println(emailmsg.getText());		
 		System.out.println("|----|"+ emailmsg.getText());

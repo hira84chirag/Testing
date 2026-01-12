@@ -27,7 +27,11 @@ public class RediffValidation extends BaseTest {
 		
 		// Click sign in button.
 		obj.clicksignbtn();
+		// verify validation message for login page
+		obj.LoginValidationmsg();
+		// Find out brokenlink on page
 		CommonFun.BrokenLinks(driver, "a");
+		
 		
 	}
 

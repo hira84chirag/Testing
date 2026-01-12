@@ -168,7 +168,7 @@ public class CommonFun {
 		
 		List <WebElement> links =  driver.findElements(By.xpath(xpath));
 	//	 List<WebElement> links = driver.findElements(By.xpath("//img[@class='_46-i img']")); 
-			System.out.println("total size"+  links.size());
+			System.out.println("total size="+  links.size());
 			Reporter.log("count begin start Total links=" +  links.size());
 		 for (WebElement element : links) {
              String linkText = element.getText();
@@ -184,7 +184,8 @@ public class CommonFun {
      	            int responseCode = httpURLConnect.getResponseCode();
                  	
                  		if (httpURLConnect.getResponseCode() >= 400) {            	
-     	            	Reporter.log(url + " is a broken link." +" HTTP status code: "+responseCode+"=" + httpURLConnect.getResponseMessage());
+     	            	Reporter.log("HTTP status code: "+responseCode+"=" + httpURLConnect.getResponseMessage());
+     	            	//Reporter.log(url + " is a broken link.");
      	            	count++;
      	            	} else {
      	            	Reporter.log("URL :" + url );
@@ -201,8 +202,6 @@ public class CommonFun {
              }
     		 
          }
-	      //  obj.quiteBrowser();
-		//	driver.findElement(By.xpath("//a[starts-with(text(),'Sign')]")).click();
 			
 	}
 
@@ -236,8 +235,8 @@ public class CommonFun {
 	            int responseCode = httpURLConnect.getResponseCode();
             	
             		if (httpURLConnect.getResponseCode() >= 400) {            	
-	            	Reporter.log(linkUrl + " is a broken link." +" HTTP status code: "+responseCode+"=" + httpURLConnect.getResponseMessage());
-	            	count++;
+	            	Reporter.log(linkUrl + " CHIRAG is a broken link." +" HTTP status code: "+responseCode+"=" + httpURLConnect.getResponseMessage());
+	            	
 	            	} else {
 	            	Reporter.log("URL :" + linkUrl );
 	            	}
