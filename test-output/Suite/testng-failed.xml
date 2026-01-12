@@ -5,14 +5,13 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="urlfb" value="https://www.facebook.com"/>
     <classes>
-      <class name="test.Assertions_Test">
+      <class name="test.GoogleTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="HardAssert"/>
-          <include name="SoftAss"/>
+          <include name="verifyTitle"/>
         </methods>
-      </class> <!-- test.Assertions_Test -->
+      </class> <!-- test.GoogleTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

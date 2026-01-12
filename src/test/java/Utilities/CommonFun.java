@@ -168,14 +168,15 @@ public class CommonFun {
 		
 		List <WebElement> links =  driver.findElements(By.xpath(xpath));
 	//	 List<WebElement> links = driver.findElements(By.xpath("//img[@class='_46-i img']")); 
-			System.out.println("total size="+  links.size());
+		count=	links.size();
+		System.out.println("total size="+  links.size());
 			Reporter.log("count begin start Total links=" +  links.size());
 		 for (WebElement element : links) {
              String linkText = element.getText();
              String url = element.getAttribute("href");
 
              if (url != null && !url.isEmpty()) {
-            	 if (count <5) {
+            	 if (count >5) {
             	 try {
      	            URL urltest = new URL(url);
      	            HttpURLConnection httpURLConnect = (HttpURLConnection) urltest.openConnection();
@@ -184,7 +185,7 @@ public class CommonFun {
      	            int responseCode = httpURLConnect.getResponseCode();
                  	
                  		if (httpURLConnect.getResponseCode() >= 400) {            	
-     	            	Reporter.log("HTTP status code: "+responseCode+"=" + httpURLConnect.getResponseMessage());
+     	            	Reporter.log(url +" HTTP code: "+responseCode +"="+ httpURLConnect.getResponseMessage());
      	            	//Reporter.log(url + " is a broken link.");
      	            	count++;
      	            	} else {
@@ -211,7 +212,7 @@ public class CommonFun {
 		 Reporter.log("Total links=" + links.size());
 		 
 		 for (WebElement element : links) {
-             String linkText = element.getText();
+             String linkText = element.getText().trim();
              String url = element.getAttribute("href");
 
              if (url != null && !url.isEmpty()) {
