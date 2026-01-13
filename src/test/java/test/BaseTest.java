@@ -53,7 +53,7 @@ public class BaseTest extends Base{
 	        
 	  }
 	
-	@AfterTest
+	@AfterSuite
 	static void afterTest() {
 	    System.out.println("All tests finished");
         WebDriver driver = new FirefoxDriver();
