@@ -50,7 +50,8 @@ public class StaleElement_Exp extends BaseTest {
             catch (NoSuchElementException e) {
                 e.getMessage();
             }    
-            
+     //   driver.navigate().to("file:///C:/Users/Dell%20Enterprise/eclipse-workspace/Testing/extent-report/MyTestReport.html#");
+      //  driver.manage().window().maximize();    
     } 
 } 
    

@@ -19,7 +19,7 @@ public class RediffValidation extends BaseTest {
 		Obj_RediffValidation obj=new Obj_RediffValidation(driver);
 		
 		// Enter user name
-		obj.enteruname("chiragpatel@infosystechnologies.com");
+		obj.enteruname("achiragpastel@infosystechnologies.com");
 		// Enter password
 		obj.enterpwd("SoftwareTestingHead");	
 		// Get value by FindBy Method.	

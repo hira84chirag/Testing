@@ -1,6 +1,258 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="13" passed="11" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Accessibility Violations:]]>
+    </line>
+    <line>
+      <![CDATA[Violation ID: aria-allowed-role]]>
+    </line>
+    <line>
+      <![CDATA[Description: Ensures role attribute has an appropriate value for the element]]>
+    </line>
+    <line>
+      <![CDATA[Impact: minor]]>
+    </line>
+    <line>
+      <![CDATA[Elements:]]>
+    </line>
+    <line>
+      <![CDATA[ - [figure[aria-label="Footer\ Logo"]]]]>
+    </line>
+    <line>
+      <![CDATA[Violation ID: aria-roles]]>
+    </line>
+    <line>
+      <![CDATA[Description: Ensures all elements with a role attribute use a valid value]]>
+    </line>
+    <line>
+      <![CDATA[Impact: serious]]>
+    </line>
+    <line>
+      <![CDATA[Elements:]]>
+    </line>
+    <line>
+      <![CDATA[ - [.logo-white]]]>
+    </line>
+    <line>
+      <![CDATA[Violation ID: duplicate-id]]>
+    </line>
+    <line>
+      <![CDATA[Description: Ensures every id attribute value is unique]]>
+    </line>
+    <line>
+      <![CDATA[Impact: minor]]>
+    </line>
+    <line>
+      <![CDATA[Elements:]]>
+    </line>
+    <line>
+      <![CDATA[ - [.res-language-dropdown > .language_swticher.dropdown_wrapper > .hide.dropdown_content.p_abs]]]>
+    </line>
+    <line>
+      <![CDATA[ - [#mobinav-section-about-level2 > .mm-listview > .level2:nth-child(13)]]]>
+    </line>
+    <line>
+      <![CDATA[ - [#mobinav-section-about-level2 > .mm-listview > .last.level2]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.level3:nth-child(34)]]]>
+    </line>
+    <line>
+      <![CDATA[ - [#about > .nav-container > .container > .row > .sub-nav-col.col-md-4 > .second-sub-nav > .main-bottom-nav.d-flex > .main-nav-level-2.level2:nth-child(2)]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.main-bottom-nav.d-flex > .main-nav-level-2.level2:nth-child(7)]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.main-nav-level-2.haschildren.level2:nth-child(8) > .last-sub-nav > .main-bottom-nav.d-flex > .main-nav-level-3.first.level3]]]>
+    </line>
+    <line>
+      <![CDATA[Violation ID: heading-order]]>
+    </line>
+    <line>
+      <![CDATA[Description: Ensures the order of headings is semantically correct]]>
+    </line>
+    <line>
+      <![CDATA[Impact: moderate]]>
+    </line>
+    <line>
+      <![CDATA[Elements:]]>
+    </line>
+    <line>
+      <![CDATA[ - [div[data-id="building--places"] > .vt-text-article--wrapper > .row > .col-xl-5.col-lg-6.col-md-6 > .single-vt-article--wrapper > .single-vt-article--slider.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .single-vt-article--wrapper--item.slick-slide.slick-current > .single-vt-article-content--wrapper > .content-wrapper > h5]]]>
+    </line>
+    <line>
+      <![CDATA[Violation ID: link-name]]>
+    </line>
+    <line>
+      <![CDATA[Description: Ensures links have discernible text]]>
+    </line>
+    <line>
+      <![CDATA[Impact: serious]]>
+    </line>
+    <line>
+      <![CDATA[Elements:]]>
+    </line>
+    <line>
+      <![CDATA[ - [#about > .nav-container > .container > .close-menu > .local-link[href="javascript\:void\(0\)\;"][target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [#engineering-better-future > .nav-container > .container > .close-menu > .local-link[href="javascript\:void\(0\)\;"][target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(3) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(3) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(2) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(1) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(2) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(1) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(2) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.last[data-market="Protected"] > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.last[data-market="Protected"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.last[data-market="Protected"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.first.level3 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.level3:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.level3:nth-child(3) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.level3:nth-child(4) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.level3:nth-child(5) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.level3:nth-child(6) > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.ms-menu-3.last.level3 > .nav-font.main-top-nav-item[target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [#markets-and-services > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(1) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(2) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(4) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
+    </line>
+    <line>
+      <![CDATA[Violation ID: role-img-alt]]>
+    </line>
+    <line>
+      <![CDATA[Description: Ensures [role='img'] elements have alternate text]]>
+    </line>
+    <line>
+      <![CDATA[Impact: serious]]>
+    </line>
+    <line>
+      <![CDATA[Elements:]]>
+    </line>
+    <line>
+      <![CDATA[ - [.language-dropdown > .language_swticher.dropdown_wrapper > .ddl_selected.noPsudeo.mono1 > .icon-right-arrow[role="img"][aria-hidden="false"]]]]>
+    </line>
+    <line>
+      <![CDATA[Browser =chrome]]>
+    </line>
+    <line>
+      <![CDATA[Passowrd =https://www.facebook.com]]>
+    </line>
+    <line>
+      <![CDATA[[[[[ChromeDriver: chrome on windows (493c363d2698943232b69e423a7b7170)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+    </line>
+    <line>
+      <![CDATA[[[[[ChromeDriver: chrome on windows (493c363d2698943232b69e423a7b7170)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+    </line>
+    <line>
+      <![CDATA[[[[[ChromeDriver: chrome on windows (493c363d2698943232b69e423a7b7170)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+    </line>
     <line>
       <![CDATA[Facebook services directory]]>
     </line>
@@ -640,17 +892,892 @@
     <line>
       <![CDATA[-----softare Testing-----]]>
     </line>
+    <line>
+      <![CDATA[count begin start Total links=0]]>
+    </line>
+    <line>
+      <![CDATA[logo found]]>
+    </line>
+    <line>
+      <![CDATA[logo found]]>
+    </line>
+    <line>
+      <![CDATA[Username = achiragpastel@infosystechnologies.com]]>
+    </line>
+    <line>
+      <![CDATA[Password = SoftwareTestingHead]]>
+    </line>
+    <line>
+      <![CDATA[button name = Log In]]>
+    </line>
+    <line>
+      <![CDATA[valdiation message =Wrong username and password combination.]]>
+    </line>
+    <line>
+      <![CDATA[Total links=116]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://mail.rediff.com/cgi-bin/login.cgi]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://money.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://workmail.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://businessemail.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://gurus.rediff.com/]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://tv.rediff.com/?utm_source=rediff_home_icon&utm_medium=pc&utm_campaign=redifftv&utm_content=redifftv_rediff_home_icon_pc]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://register.rediff.com/utilities/newforgot/index.php?FormName=showlogin]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://register.rediff.com/register/register.php?FormName=user_details]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/badoni-selection-is-gambhir-playing-favourites/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/badoni-selection-is-gambhir-playing-favourites/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/sc-divided-on-prior-sanction-for-graft-probe-into-govt-servants/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/sc-divided-on-prior-sanction-for-graft-probe-into-govt-servants/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/new-two-roadblock-for-novak-djokovic-at-australian-open/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/new-two-roadblock-for-novak-djokovic-at-australian-open/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead/report/raja-saabs-riddhi-the-cutie-to-watch-out-for/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead/report/raja-saabs-riddhi-the-cutie-to-watch-out-for/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business/special/auto-maruti-dzire-is-top-selling-car-of-2025/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business/special/auto-maruti-dzire-is-top-selling-car-of-2025/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/cold-wave-grips-in-north-india-delhi-shivers-at-3c/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/cold-wave-grips-in-north-india-delhi-shivers-at-3c/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business/report/auto-suvs-rule-resale-market-despite-small-cars-getting-cheaper/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/business/report/auto-suvs-rule-resale-market-despite-small-cars-getting-cheaper/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies/report/more-pictures-from-nupur-sanons-dreamy-wedding/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies/report/more-pictures-from-nupur-sanons-dreamy-wedding/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/bjp-targets-ajit-pawars-party-in-pune-over-hoardings/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/bjp-targets-ajit-pawars-party-in-pune-over-hoardings/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/indians-share-in-us-naturalisation-hits-9-year-low/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/indians-share-in-us-naturalisation-hits-9-year-low/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead/report/gadgets-asus-introduces-16-dual-screen-oled-gaming-laptop/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead/report/gadgets-asus-introduces-16-dual-screen-oled-gaming-laptop/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/australia-captain-alyssa-healy-to-retire-after-india-series/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/australia-captain-alyssa-healy-to-retire-after-india-series/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies/report/prashant-tamangs-wife-daughter-say-last-goodbyes/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies/report/prashant-tamangs-wife-daughter-say-last-goodbyes/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/rcb-to-play-ipl-2026-home-games-outside-bengaluru/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/rcb-to-play-ipl-2026-home-games-outside-bengaluru/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/special/the-rediff-podcast-aditya-thackeray/20260112.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/special/the-rediff-podcast-aditya-thackeray/20260112.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/ec-bars-maha-govt-from-releasing-early-payment-under-ladki-bahin/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/ec-bars-maha-govt-from-releasing-early-payment-under-ladki-bahin/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/interview/maoist-leadership-has-been-totally-eliminated/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/interview/maoist-leadership-has-been-totally-eliminated/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/trump-announces-25-tariffs-on-countries-doing-business-with-iran/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/trump-announces-25-tariffs-on-countries-doing-business-with-iran/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies/report/the-toxic-actress-who-broke-the-internet/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies/report/the-toxic-actress-who-broke-the-internet/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/movies]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/tennis-fans-can-win-671-million-at-australian-open/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/tennis-fans-can-win-671-million-at-australian-open/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/news-listicle-how-large-is-mumbais-budget/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/news-listicle-how-large-is-mumbais-budget/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/special/how-operation-sindoor-changed-security-doctrine-in-2025/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/special/how-operation-sindoor-changed-security-doctrine-in-2025/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead/report/personalfinance-what-are-nse-and-bse-options-heres-a-beginners-guide/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead/report/personalfinance-what-are-nse-and-bse-options-heres-a-beginners-guide/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/getahead]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/vaibhav-suryavanshi-fails-as-india-lose-to-england-in-u-19-world-cup-warm-up/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/vaibhav-suryavanshi-fails-as-india-lose-to-england-in-u-19-world-cup-warm-up/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/bmc-polls-fadnavis-plays-old-clips-says-raj-uddhav-fighting-for-survival/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/bmc-polls-fadnavis-plays-old-clips-says-raj-uddhav-fighting-for-survival/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/iran-says-forces-ready-for-war-accuses-us-israel-of-stoking-unrest/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/iran-says-forces-ready-for-war-accuses-us-israel-of-stoking-unrest/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/wifes-qualifications-no-ground-to-deny-maintenance-hc/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news/report/wifes-qualifications-no-ground-to-deny-maintenance-hc/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/news]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/dakar-rally-variawa-wins-eighth-stage/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/dakar-rally-variawa-wins-eighth-stage/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/edwards-to-lead-netherlands-at-t20-world-cup/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket/report/edwards-to-lead-netherlands-at-t20-world-cup/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/cricket]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/prannoy-rediscovers-joy-after-toxic-2025/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports/report/prannoy-rediscovers-joy-after-toxic-2025/20260113.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :https://www.rediff.com/sports]]>
+    </line>
+    <line>
+      <![CDATA[URL :http://in.rediff.com/disclaim.htm]]>
+    </line>
+    <line>
+      <![CDATA[URL :http://www.rediff.com/w3c/policy.html]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-01-12T23:19:15 IST" name="Default suite" finished-at="2026-01-12T23:20:44 IST" duration-ms="88825">
+  <suite started-at="2026-01-13T12:31:38 IST" name="Suite" finished-at="2026-01-13T12:34:23 IST" duration-ms="165729">
     <groups>
     </groups>
-    <test started-at="2026-01-12T23:19:15 IST" name="Default test" finished-at="2026-01-12T23:20:44 IST" duration-ms="88825">
-      <class name="test.Facebook_BrokenLink">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Facebook_BrokenLink@55b0dcab]" started-at="2026-01-12T23:19:15 IST" name="setUp" finished-at="2026-01-12T23:19:17 IST" duration-ms="1241" status="PASS">
+    <test started-at="2026-01-13T12:31:38 IST" name="Test" finished-at="2026-01-13T12:34:23 IST" duration-ms="165729">
+      <class name="test.RediffValidation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.RediffValidation@6497b078]" started-at="2026-01-13T12:33:43 IST" name="setUp" finished-at="2026-01-13T12:33:44 IST" duration-ms="823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="FbServiceDirectory()[pri:0, instance:test.Facebook_BrokenLink@55b0dcab]" started-at="2026-01-12T23:19:17 IST" name="FbServiceDirectory" finished-at="2026-01-12T23:20:44 IST" duration-ms="87328" status="PASS">
+        <test-method signature="Redfflogin()[pri:0, instance:test.RediffValidation@6497b078]" started-at="2026-01-13T12:33:44 IST" name="Redfflogin" finished-at="2026-01-13T12:34:16 IST" duration-ms="32148" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Username = achiragpastel@infosystechnologies.com]]>
+            </line>
+            <line>
+              <![CDATA[Password = SoftwareTestingHead]]>
+            </line>
+            <line>
+              <![CDATA[button name = Log In]]>
+            </line>
+            <line>
+              <![CDATA[valdiation message =Wrong username and password combination.]]>
+            </line>
+            <line>
+              <![CDATA[Total links=116]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://mail.rediff.com/cgi-bin/login.cgi]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://money.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://workmail.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://businessemail.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://gurus.rediff.com/]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://tv.rediff.com/?utm_source=rediff_home_icon&utm_medium=pc&utm_campaign=redifftv&utm_content=redifftv_rediff_home_icon_pc]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://register.rediff.com/utilities/newforgot/index.php?FormName=showlogin]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://register.rediff.com/register/register.php?FormName=user_details]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/badoni-selection-is-gambhir-playing-favourites/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/badoni-selection-is-gambhir-playing-favourites/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/sc-divided-on-prior-sanction-for-graft-probe-into-govt-servants/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/sc-divided-on-prior-sanction-for-graft-probe-into-govt-servants/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/new-two-roadblock-for-novak-djokovic-at-australian-open/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/new-two-roadblock-for-novak-djokovic-at-australian-open/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead/report/raja-saabs-riddhi-the-cutie-to-watch-out-for/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead/report/raja-saabs-riddhi-the-cutie-to-watch-out-for/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business/special/auto-maruti-dzire-is-top-selling-car-of-2025/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business/special/auto-maruti-dzire-is-top-selling-car-of-2025/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/cold-wave-grips-in-north-india-delhi-shivers-at-3c/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/cold-wave-grips-in-north-india-delhi-shivers-at-3c/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business/report/auto-suvs-rule-resale-market-despite-small-cars-getting-cheaper/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/business/report/auto-suvs-rule-resale-market-despite-small-cars-getting-cheaper/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies/report/more-pictures-from-nupur-sanons-dreamy-wedding/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies/report/more-pictures-from-nupur-sanons-dreamy-wedding/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/bjp-targets-ajit-pawars-party-in-pune-over-hoardings/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/bjp-targets-ajit-pawars-party-in-pune-over-hoardings/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/indians-share-in-us-naturalisation-hits-9-year-low/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/indians-share-in-us-naturalisation-hits-9-year-low/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead/report/gadgets-asus-introduces-16-dual-screen-oled-gaming-laptop/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead/report/gadgets-asus-introduces-16-dual-screen-oled-gaming-laptop/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/australia-captain-alyssa-healy-to-retire-after-india-series/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/australia-captain-alyssa-healy-to-retire-after-india-series/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies/report/prashant-tamangs-wife-daughter-say-last-goodbyes/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies/report/prashant-tamangs-wife-daughter-say-last-goodbyes/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/rcb-to-play-ipl-2026-home-games-outside-bengaluru/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/rcb-to-play-ipl-2026-home-games-outside-bengaluru/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/special/the-rediff-podcast-aditya-thackeray/20260112.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/special/the-rediff-podcast-aditya-thackeray/20260112.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/ec-bars-maha-govt-from-releasing-early-payment-under-ladki-bahin/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/ec-bars-maha-govt-from-releasing-early-payment-under-ladki-bahin/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/interview/maoist-leadership-has-been-totally-eliminated/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/interview/maoist-leadership-has-been-totally-eliminated/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/trump-announces-25-tariffs-on-countries-doing-business-with-iran/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/trump-announces-25-tariffs-on-countries-doing-business-with-iran/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies/report/the-toxic-actress-who-broke-the-internet/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies/report/the-toxic-actress-who-broke-the-internet/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/movies]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/tennis-fans-can-win-671-million-at-australian-open/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/tennis-fans-can-win-671-million-at-australian-open/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/news-listicle-how-large-is-mumbais-budget/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/news-listicle-how-large-is-mumbais-budget/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/special/how-operation-sindoor-changed-security-doctrine-in-2025/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/special/how-operation-sindoor-changed-security-doctrine-in-2025/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead/report/personalfinance-what-are-nse-and-bse-options-heres-a-beginners-guide/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead/report/personalfinance-what-are-nse-and-bse-options-heres-a-beginners-guide/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/getahead]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/vaibhav-suryavanshi-fails-as-india-lose-to-england-in-u-19-world-cup-warm-up/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/vaibhav-suryavanshi-fails-as-india-lose-to-england-in-u-19-world-cup-warm-up/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/bmc-polls-fadnavis-plays-old-clips-says-raj-uddhav-fighting-for-survival/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/bmc-polls-fadnavis-plays-old-clips-says-raj-uddhav-fighting-for-survival/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/iran-says-forces-ready-for-war-accuses-us-israel-of-stoking-unrest/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/iran-says-forces-ready-for-war-accuses-us-israel-of-stoking-unrest/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/wifes-qualifications-no-ground-to-deny-maintenance-hc/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news/report/wifes-qualifications-no-ground-to-deny-maintenance-hc/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/news]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/dakar-rally-variawa-wins-eighth-stage/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/dakar-rally-variawa-wins-eighth-stage/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/edwards-to-lead-netherlands-at-t20-world-cup/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket/report/edwards-to-lead-netherlands-at-t20-world-cup/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/cricket]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/prannoy-rediscovers-joy-after-toxic-2025/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports/report/prannoy-rediscovers-joy-after-toxic-2025/20260113.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :https://www.rediff.com/sports]]>
+            </line>
+            <line>
+              <![CDATA[URL :http://in.rediff.com/disclaim.htm]]>
+            </line>
+            <line>
+              <![CDATA[URL :http://www.rediff.com/w3c/policy.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Redfflogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.RediffValidation@6497b078]" started-at="2026-01-13T12:34:16 IST" name="tearDown" finished-at="2026-01-13T12:34:16 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.RediffValidation -->
+      <class name="test.Flipkart">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Flipkart@55f616cf]" started-at="2026-01-13T12:33:29 IST" name="setUp" finished-at="2026-01-13T12:33:30 IST" duration-ms="712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Menul_Links()[pri:0, instance:test.Flipkart@55f616cf]" started-at="2026-01-13T12:33:30 IST" name="Menul_Links" finished-at="2026-01-13T12:33:33 IST" duration-ms="3812" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[count begin start Total links=0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Menul_Links -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Flipkart@55f616cf]" started-at="2026-01-13T12:33:33 IST" name="tearDown" finished-at="2026-01-13T12:33:33 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Flipkart -->
+      <class name="test.DataProviderTest">
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:test.DataProviderTest@87a85e1]" started-at="2026-01-13T12:31:49 IST" name="validLogin" data-provider="dp" finished-at="2026-01-13T12:31:49 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Browser =chrome]]>
+            </line>
+            <line>
+              <![CDATA[Passowrd =https://www.facebook.com]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+      </class> <!-- test.DataProviderTest -->
+      <class name="test.StaleElement_Exp">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.StaleElement_Exp@41c2284a]" started-at="2026-01-13T12:34:16 IST" name="setUp" finished-at="2026-01-13T12:34:17 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="handleStaleElement()[pri:0, instance:test.StaleElement_Exp@41c2284a]" started-at="2026-01-13T12:34:17 IST" name="handleStaleElement" finished-at="2026-01-13T12:34:20 IST" duration-ms="2550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleStaleElement -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.StaleElement_Exp@41c2284a]" started-at="2026-01-13T12:34:20 IST" name="tearDown" finished-at="2026-01-13T12:34:20 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.StaleElement_Exp -->
+      <class name="test.LocatorsExample">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LocatorsExample@c03cf28]" started-at="2026-01-13T12:33:40 IST" name="setUp" finished-at="2026-01-13T12:33:41 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GooglelocatorDemo()[pri:0, instance:test.LocatorsExample@c03cf28]" started-at="2026-01-13T12:33:41 IST" name="GooglelocatorDemo" finished-at="2026-01-13T12:33:43 IST" duration-ms="2250" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logo found]]>
+            </line>
+            <line>
+              <![CDATA[logo found]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- GooglelocatorDemo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LocatorsExample@c03cf28]" started-at="2026-01-13T12:33:43 IST" name="tearDown" finished-at="2026-01-13T12:33:43 IST" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LocatorsExample -->
+      <class name="test.Exa_Checkbox">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Exa_Checkbox@3c947bc5]" started-at="2026-01-13T12:31:52 IST" name="setUp" finished-at="2026-01-13T12:31:53 IST" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Testcheckbox()[pri:0, instance:test.Exa_Checkbox@3c947bc5]" started-at="2026-01-13T12:31:53 IST" name="Testcheckbox" finished-at="2026-01-13T12:31:58 IST" duration-ms="4769" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[[[[ChromeDriver: chrome on windows (493c363d2698943232b69e423a7b7170)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+            </line>
+            <line>
+              <![CDATA[[[[[ChromeDriver: chrome on windows (493c363d2698943232b69e423a7b7170)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+            </line>
+            <line>
+              <![CDATA[[[[[ChromeDriver: chrome on windows (493c363d2698943232b69e423a7b7170)] -> xpath: //button[@aria-label='Toggle']]] -> xpath: //span[@class='rct-checkbox']]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testcheckbox -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Exa_Checkbox@3c947bc5]" started-at="2026-01-13T12:31:58 IST" name="tearDown" finished-at="2026-01-13T12:31:58 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.Exa_Checkbox -->
+      <class name="test.GoogleTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.GoogleTest@1356d4d4]" started-at="2026-01-13T12:33:33 IST" name="setUp" finished-at="2026-01-13T12:33:34 IST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:0, instance:test.GoogleTest@1356d4d4]" started-at="2026-01-13T12:33:34 IST" name="verifyTitle" finished-at="2026-01-13T12:33:40 IST" duration-ms="5357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.GoogleTest@1356d4d4]" started-at="2026-01-13T12:33:40 IST" name="tearDown" finished-at="2026-01-13T12:33:40 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.GoogleTest -->
+      <class name="test.Assertions_Test">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:test.Assertions_Test@157853da]" started-at="2026-01-13T12:34:20 IST" name="afterTest" finished-at="2026-01-13T12:34:23 IST" duration-ms="3736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- test.Assertions_Test -->
+      <class name="test.EdurekaLogin">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.EdurekaLogin@5552768b]" started-at="2026-01-13T12:31:49 IST" name="setUp" finished-at="2026-01-13T12:31:50 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="EdurekaLogin()[pri:0, instance:test.EdurekaLogin@5552768b]" started-at="2026-01-13T12:31:50 IST" name="EdurekaLogin" finished-at="2026-01-13T12:31:52 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdurekaLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.EdurekaLogin@5552768b]" started-at="2026-01-13T12:31:52 IST" name="tearDown" finished-at="2026-01-13T12:31:52 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.EdurekaLogin -->
+      <class name="test.Facebook_BrokenLink">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.Facebook_BrokenLink@609db43b]" started-at="2026-01-13T12:31:58 IST" name="setUp" finished-at="2026-01-13T12:31:58 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FbServiceDirectory()[pri:0, instance:test.Facebook_BrokenLink@609db43b]" started-at="2026-01-13T12:31:58 IST" name="FbServiceDirectory" finished-at="2026-01-13T12:33:29 IST" duration-ms="90057" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Facebook services directory]]>
@@ -1293,11 +2420,280 @@
             </line>
           </reporter-output>
         </test-method> <!-- FbServiceDirectory -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Facebook_BrokenLink@55b0dcab]" started-at="2026-01-12T23:20:44 IST" name="tearDown" finished-at="2026-01-12T23:20:44 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.Facebook_BrokenLink@609db43b]" started-at="2026-01-13T12:33:29 IST" name="tearDown" finished-at="2026-01-13T12:33:29 IST" duration-ms="231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test.Facebook_BrokenLink -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.AccessibilityTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.AccessibilityTest@5f16132a]" started-at="2026-01-13T12:31:38 IST" name="setUp" finished-at="2026-01-13T12:31:39 IST" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AccessibilityCheck()[pri:0, instance:test.AccessibilityTest@5f16132a]" started-at="2026-01-13T12:31:39 IST" name="AccessibilityCheck" finished-at="2026-01-13T12:31:49 IST" duration-ms="9735" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Accessibility Violations:]]>
+            </line>
+            <line>
+              <![CDATA[Violation ID: aria-allowed-role]]>
+            </line>
+            <line>
+              <![CDATA[Description: Ensures role attribute has an appropriate value for the element]]>
+            </line>
+            <line>
+              <![CDATA[Impact: minor]]>
+            </line>
+            <line>
+              <![CDATA[Elements:]]>
+            </line>
+            <line>
+              <![CDATA[ - [figure[aria-label="Footer\ Logo"]]]]>
+            </line>
+            <line>
+              <![CDATA[Violation ID: aria-roles]]>
+            </line>
+            <line>
+              <![CDATA[Description: Ensures all elements with a role attribute use a valid value]]>
+            </line>
+            <line>
+              <![CDATA[Impact: serious]]>
+            </line>
+            <line>
+              <![CDATA[Elements:]]>
+            </line>
+            <line>
+              <![CDATA[ - [.logo-white]]]>
+            </line>
+            <line>
+              <![CDATA[Violation ID: duplicate-id]]>
+            </line>
+            <line>
+              <![CDATA[Description: Ensures every id attribute value is unique]]>
+            </line>
+            <line>
+              <![CDATA[Impact: minor]]>
+            </line>
+            <line>
+              <![CDATA[Elements:]]>
+            </line>
+            <line>
+              <![CDATA[ - [.res-language-dropdown > .language_swticher.dropdown_wrapper > .hide.dropdown_content.p_abs]]]>
+            </line>
+            <line>
+              <![CDATA[ - [#mobinav-section-about-level2 > .mm-listview > .level2:nth-child(13)]]]>
+            </line>
+            <line>
+              <![CDATA[ - [#mobinav-section-about-level2 > .mm-listview > .last.level2]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.level3:nth-child(34)]]]>
+            </line>
+            <line>
+              <![CDATA[ - [#about > .nav-container > .container > .row > .sub-nav-col.col-md-4 > .second-sub-nav > .main-bottom-nav.d-flex > .main-nav-level-2.level2:nth-child(2)]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.main-bottom-nav.d-flex > .main-nav-level-2.level2:nth-child(7)]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.main-nav-level-2.haschildren.level2:nth-child(8) > .last-sub-nav > .main-bottom-nav.d-flex > .main-nav-level-3.first.level3]]]>
+            </line>
+            <line>
+              <![CDATA[Violation ID: heading-order]]>
+            </line>
+            <line>
+              <![CDATA[Description: Ensures the order of headings is semantically correct]]>
+            </line>
+            <line>
+              <![CDATA[Impact: moderate]]>
+            </line>
+            <line>
+              <![CDATA[Elements:]]>
+            </line>
+            <line>
+              <![CDATA[ - [div[data-id="building--places"] > .vt-text-article--wrapper > .row > .col-xl-5.col-lg-6.col-md-6 > .single-vt-article--wrapper > .single-vt-article--slider.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .single-vt-article--wrapper--item.slick-slide.slick-current > .single-vt-article-content--wrapper > .content-wrapper > h5]]]>
+            </line>
+            <line>
+              <![CDATA[Violation ID: link-name]]>
+            </line>
+            <line>
+              <![CDATA[Description: Ensures links have discernible text]]>
+            </line>
+            <line>
+              <![CDATA[Impact: serious]]>
+            </line>
+            <line>
+              <![CDATA[Elements:]]>
+            </line>
+            <line>
+              <![CDATA[ - [#about > .nav-container > .container > .close-menu > .local-link[href="javascript\:void\(0\)\;"][target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [#engineering-better-future > .nav-container > .container > .close-menu > .local-link[href="javascript\:void\(0\)\;"][target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(3) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [div[data-market="Housed"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(3) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(2) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Connected"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(1) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(2) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Powered"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(1) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(1) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(2) > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.haschildren[data-market="Protected"]:nth-child(2) > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.last[data-market="Protected"] > .ms-level-4 > .ms-menu-4 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.last[data-market="Protected"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.first > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.last[data-market="Protected"] > .ms-level-4 > .ms-level-5 > .ms-menu-5.level5.last > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.first.level3 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.level3:nth-child(2) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.level3:nth-child(3) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.level3:nth-child(4) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.level3:nth-child(5) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.level3:nth-child(6) > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.ms-menu-3.last.level3 > .nav-font.main-top-nav-item[target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [#markets-and-services > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(1) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(2) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[ - [.align-items-end.main-nav-level-1.level1:nth-child(4) > .nav-container > .container > .close-menu > .local-link[href="javascript\:\;"][target="_self"]]]]>
+            </line>
+            <line>
+              <![CDATA[Violation ID: role-img-alt]]>
+            </line>
+            <line>
+              <![CDATA[Description: Ensures [role='img'] elements have alternate text]]>
+            </line>
+            <line>
+              <![CDATA[Impact: serious]]>
+            </line>
+            <line>
+              <![CDATA[Elements:]]>
+            </line>
+            <line>
+              <![CDATA[ - [.language-dropdown > .language_swticher.dropdown_wrapper > .ddl_selected.noPsudeo.mono1 > .icon-right-arrow[role="img"][aria-hidden="false"]]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AccessibilityCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.AccessibilityTest@5f16132a]" started-at="2026-01-13T12:31:49 IST" name="tearDown" finished-at="2026-01-13T12:31:49 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.AccessibilityTest -->
+      <class name="test.MyTest">
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.MyTest@1329eff]" started-at="2026-01-13T12:33:43 IST" name="testLogin" data-provider="dp" finished-at="2026-01-13T12:33:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.facebook.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- test.MyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
