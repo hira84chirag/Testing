@@ -2,19 +2,19 @@ package test;
 
 import java.awt.AWTException;
 import java.security.Key;
+import Utilities.CommonFun;
 import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-import Utilities.CommonFun;
+
 
 public class GoogleTest extends BaseTest {
 
     @Test
-    public void verifyTitle() throws AWTException, InterruptedException {
+    public void verifyTitle() throws Exception {
     	 
     	driver.get(prop.getProperty("Gogleurl"));
     	driver.manage().window().maximize();
@@ -53,11 +53,8 @@ public class GoogleTest extends BaseTest {
 		 // To click on last suggestion
 	//	 allSuggestions.get(count - 3).click();
 		 driver.navigate().back();
-		 Thread.sleep(2000);
-		 
-		 
+		 Thread.sleep(2000);		 
     }
-    
     public void Verifytext(String xpath) {
     		String s = driver.getTitle();		  
 		  if (s.contains("Gmail: Private and secure email at no cost")) {

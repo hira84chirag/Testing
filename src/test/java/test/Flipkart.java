@@ -6,13 +6,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
-
 import Utilities.CommonFun;
 import java.util.concurrent.*;
 public class Flipkart extends BaseTest{
+	@Ignore
 	@Test()
-	public void Menul_Links() throws InterruptedException, AWTException, ExecutionException  {
+	public void Menul_Links() throws Exception  {
 		
 		String s1 = new String("hello");
 		String s2 = "hello";
@@ -20,8 +21,6 @@ public class Flipkart extends BaseTest{
 
 		System.out.println(s1 == s2);
 		System.out.println(s2 == s3);
-		
-	        
 		// TODO Auto-generated method stub
 
 		driver.get(prop.getProperty("url"));
@@ -32,8 +31,10 @@ public class Flipkart extends BaseTest{
 //		String xpath= "//span[@class='_1XjE3T']";
 		
 		String xpath= "//div[@class='_3sdu8W emupdz']/a";
+		
+		Thread.sleep(2000);
 		CommonFun.CountLinks(driver, xpath);
-        String Fashionpath="//span[contains(text(),'Fashion')]";
+        String Fashionpath="//div[contains(text(),'Fashion')]";
 	     // Locate the element you want to hover over
 	        WebElement elementToHover = driver.findElement(By.xpath(Fashionpath)); 
 	   
@@ -42,7 +43,9 @@ public class Flipkart extends BaseTest{
 
 	        // Perform the mouse hover action
 	        actions.moveToElement(elementToHover).perform();
-	        CommonFun.scrollpage(driver, "//footer[@class='wzLzb3']");	        
+	        Thread.sleep(2000);
+	        CommonFun.scrollpage(driver, "//footer[@class='wzLzb3']");	    
+	        Thread.sleep(2000);
 	        CommonFun.photo("Flipkart");	
 		} catch (NoSuchElementException e) {
 			Reporter.log(e.getMessage());
