@@ -10,5 +10,8 @@ public class MyTest {
         // Your test logic here
         System.out.println("browser name: " + browser + " and url: " + url);
         // Assertions go here
+
     }
+    
+    
 }

@@ -11,29 +11,23 @@ import org.testng.annotations.Test;
 import Utilities.CommonFun;
 import java.util.concurrent.*;
 public class Flipkart extends BaseTest{
-	@Ignore
+
 	@Test()
 	public void Menul_Links() throws Exception  {
-		
-		String s1 = new String("hello");
-		String s2 = "hello";
-		String s3 = s1.intern();
 
-		System.out.println(s1 == s2);
-		System.out.println(s2 == s3);
 		// TODO Auto-generated method stub
 
 		driver.get(prop.getProperty("url"));
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(600));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(600));
 		driver.manage().window().maximize();
-		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(800));
 		try {
 //		String xpath= "//span[@class='_1XjE3T']";
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(500));
+		driver.findElement(By.xpath("//span[@class='b3wTlE']")).click();	
+		//x("//span[@class='b3wTlE']") String xpath= "a";
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(300));
 		
-		String xpath= "//div[@class='_3sdu8W emupdz']/a";
-		
-		Thread.sleep(2000);
-		CommonFun.CountLinks(driver, xpath);
         String Fashionpath="//div[contains(text(),'Fashion')]";
 	     // Locate the element you want to hover over
 	        WebElement elementToHover = driver.findElement(By.xpath(Fashionpath)); 
@@ -43,9 +37,9 @@ public class Flipkart extends BaseTest{
 
 	        // Perform the mouse hover action
 	        actions.moveToElement(elementToHover).perform();
-	        Thread.sleep(2000);
-	        CommonFun.scrollpage(driver, "//footer[@class='wzLzb3']");	    
-	        Thread.sleep(2000);
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
+	        CommonFun.scrollme(driver);	    
+	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
 	        CommonFun.photo("Flipkart");	
 		} catch (NoSuchElementException e) {
 			Reporter.log(e.getMessage());
@@ -53,22 +47,3 @@ public class Flipkart extends BaseTest{
 		}
 	}
 }
-
-
-
-// like clicking on a submenu item that appears.
-//        WebElement subMenuItem = driver.findElement(By.linkText("Men's Top Wear"));
-//       actions.click(subMenuItem).perform();
-
-//Click see offer link button
-		/*
-		 * path="//div[@class='_2GaeWJ']"; WebElement
-		 * parent=driver.findElement(By.xpath(path));
-		 */		
-		
-		  // Click next button 
-//		path="//a[@id='a-autoid-1']//i[@class='a-icon a-icon-next']"; 		 
-//	WebElement seeofferpage=driver.findElement(By.xpath(path)); 		
-//		String path1="//div[@class='_offer-faceout-carousel-card_style_badgeContainer__1IyV0']/span[@class='a-size-small _offer-faceout-carousel-card_style_savingsBadge__1spPe']";					
-//		$x("//span[@class='a-truncate a-size-base-plus']/span[@class='a-truncate-full a-offscreen']")	
-//		String path1="//span[@class='a-truncate a-size-base-plus']/span[@class='a-truncate-full a-offscreen']";	

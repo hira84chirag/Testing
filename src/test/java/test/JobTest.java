@@ -13,20 +13,28 @@ import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class JobTest {
+public class JobTest extends BaseTest {
 	
 	
 	
-	@Ignore
 	@Test()
 	public void check() throws Exception {
 	
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
-//		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+
+        
+		
+		String s1 = new String("hello");
+		String s2 = "hello";
+		String s3 = s1.intern();
+
+		System.out.println(s1 == s2);
+		System.out.println(s2 == s3);
+		
 		driver.get("http://www.paytm.com");
+		
 	
 	}
 	

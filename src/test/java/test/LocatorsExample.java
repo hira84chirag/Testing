@@ -15,21 +15,22 @@ import org.openqa.selenium.WebElement;
 public class LocatorsExample extends BaseTest{
 	
 @Test
-	public void GooglelocatorDemo() throws InterruptedException  {
+	public void FbElementvisible()  {
 		driver.get(prop.getProperty("fburl"));
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(500));
-        Thread.sleep(400);
+      
         String xpath="//input[@name='email']";
         boolean str= driver.findElement(By.xpath(xpath)).isDisplayed();
-        if (str==true)
-        Reporter.log("logo found");
-        else Reporter.log("logo not found");
+        
+        if (str==true) Reporter.log("Element found");
+        else Reporter.log("Element not found");
+        
         driver.navigate().refresh();
-        Thread.sleep(400);
-        if (str==true)
-        Reporter.log("logo found");
-        else Reporter.log("logo not found");
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(400));
+        
+        if (str==true) Reporter.log("Element found");
+        else Reporter.log("Element not found");
 
 }
 		

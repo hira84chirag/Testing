@@ -5,13 +5,11 @@
     <parameter name="browser" value="chrome"/>
     <parameter name="urlfb" value="https://www.facebook.com"/>
     <classes>
-      <class name="test.GoogleTest">
+      <class name="test.TestNG4">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verifyTitle"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- test.GoogleTest -->
+      </class> <!-- test.TestNG4 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

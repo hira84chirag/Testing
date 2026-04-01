@@ -56,7 +56,7 @@ public class Base {
 			System.out.println("valid browser is not provided, hence quitting the automation run");
 			System.exit(0);
 		}
-		System.out.println("Browser launched and navigated to site=");	
+		//System.out.println("Browser launched and navigated to site=");	
 		//url=prop.getProperty("url");
 
 		if(url!="")

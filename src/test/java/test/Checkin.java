@@ -16,13 +16,13 @@ import org.testng.annotations.Test;
 public class Checkin extends BaseTest{
 	
 	public static void main(String[] args) throws IOException {
-       // WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new FirefoxDriver();
         driver.get("https://www.crowdanalytix.com/#home");
         
         WebElement webElement = getWebElement(driver, "home");
         int i = 1;
         while (webElement == null && i < 4) {
-            webElement = getWebElement(driver, "homessssssssssss");
+            webElement = getWebElement(driver, "home");
             System.out.println("calling");
             i++;
         }

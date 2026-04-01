@@ -5,7 +5,9 @@
     <classes>
       <class name="test.Facebook_BrokenLink">
         <methods>
+          <include name="FbService"/>
           <include name="tearDown"/>
+          <include name="afterTest"/>
           <include name="setUp"/>
           <include name="FbServiceDirectory"/>
         </methods>

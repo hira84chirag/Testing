@@ -19,8 +19,11 @@ public class DataProviderTest {
   @DataProvider  
   public String[][] dp() {
     return new String[][] {
-      new String[] { "chrome", "https://www.facebook.com" },
-//      new String[] { "urlfb", "url" },    
+      new String[] { "chrome", "https://www.facebook.com" },   
+      new String[] { "urlfb", "http://www.google.com" }, 
+      new String[] { "urlfb", "url" }, 
+      new String[] { "urlfb", "http://www.hotmail.com" }, 
+     
     };
   }
 }

@@ -32,9 +32,9 @@ public void HardAssert() {
 	  driver.get(prop.getProperty("fburl")); 
 	  String title=driver.getTitle(); 
 	 	
-	  System.out.println("Facebook – log in or sign up");
+	  System.out.println("Facebook");
 	// This line will NOT be executed because the assertion above failed.
-	Assert.assertEquals(title,"Facebook – log in or sign up123");
+	Assert.assertEquals(title,"Facebook – log in or sign up");
 	System.out.println("This is Hard Assertion");
 	
 }	

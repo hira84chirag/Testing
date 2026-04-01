@@ -1,5 +1,6 @@
 package test;
 
+import java.time.Duration;
 import java.util.ArrayList;
 
 import org.openqa.selenium.WebDriver;
@@ -20,7 +21,7 @@ public class TestResult {
         driver.navigate().to("file:///C:/Users/Dell%20Enterprise/eclipse-workspace/Testing/extent-report/MyTestReport.html#");
         driver.switchTo().newWindow(WindowType.TAB);
         driver.navigate().to("file:///C:/Users/Dell%20Enterprise/eclipse-workspace/Testing/test-output/emailable-report.html");
-       Thread.sleep(1000);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(500));
         
         driver.switchTo().window(tabs.get(1));
 

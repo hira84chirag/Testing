@@ -18,6 +18,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Ignore;
 
 import com.investis.testing.Base;
 
@@ -48,11 +49,11 @@ public class BaseTest extends Base{
 	 public void tearDown() {
 	        if (driver != null) {
 	            driver.quit();
-	            System.out.println("Browser closed");
+	            //System.out.println("Browser closed");
 	        }
 	        
 	  }
-	
+	@Ignore
 	@AfterSuite
 	static void afterTest() {
 	    System.out.println("All tests finished");
