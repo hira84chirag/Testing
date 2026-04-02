@@ -28,7 +28,7 @@ public class Checkin extends BaseTest{
         }
         System.out.println(webElement.getTagName());
         System.out.println("End");
-        driver.close();
+       // driver.close();
     }
 
     public static WebElement getWebElement(WebDriver driver, String id) {

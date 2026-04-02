@@ -8,9 +8,9 @@ import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 
 public class DataProviderTest {
+	
   @Test (dataProvider = "dp")
-  
-  public void validLogin(String brwowser,String url) {		
+    public void LoginParameter(String brwowser,String url) {		
 		Reporter.log("Browser ="+  brwowser);
 		Reporter.log("Passowrd =" + url); 		
 		
