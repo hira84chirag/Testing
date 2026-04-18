@@ -49,7 +49,7 @@ public class BaseTest extends Base{
 	 public void tearDown() {
 	        if (driver != null) {
 	            driver.quit();
-	            //System.out.println("Browser closed");
+	            System.out.println("Browser closed");
 	        }
 	        
 	  }
