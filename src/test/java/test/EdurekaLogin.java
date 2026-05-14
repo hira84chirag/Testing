@@ -2,10 +2,7 @@ package test;
 import java.time.Duration;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import Utilities.CommonFun;
 import Utilities.ExtentTestNGListener;
-
-import com.aventstack.extentreports.Status;
 import Pom.Obj_Edureka;
 @Listeners(ExtentTestNGListener.class)
 

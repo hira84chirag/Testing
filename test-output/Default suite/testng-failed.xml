@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Facebook_BrokenLink">
+      <class name="test.LocatorsExample">
         <methods>
-          <include name="FbService"/>
           <include name="tearDown"/>
           <include name="afterTest"/>
+          <include name="FbElementvisible"/>
           <include name="setUp"/>
-          <include name="FbServiceDirectory"/>
         </methods>
-      </class> <!-- test.Facebook_BrokenLink -->
+      </class> <!-- test.LocatorsExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

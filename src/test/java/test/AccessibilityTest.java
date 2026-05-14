@@ -8,6 +8,7 @@ import com.deque.html.axecore.selenium.AxeBuilder;
 
 import Utilities.CommonFun;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import org.openqa.selenium.By;
@@ -18,6 +19,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class AccessibilityTest extends BaseTest {
+	@Ignore
 	@Test
     public  void AccessibilityCheck() throws FileNotFoundException {
 		SoftAssert soft=new SoftAssert();

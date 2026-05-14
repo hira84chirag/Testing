@@ -1,6 +1,6 @@
 package test;
-
-
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 import org.testng.annotations.Test;
 
 public class MyTest {
@@ -12,6 +12,14 @@ public class MyTest {
         // Assertions go here
 
     }
-    
+    @Test
+    public void javaExample() throws InterruptedException, ExecutionException {
+    	CompletableFuture<String> f = CompletableFuture
+				.supplyAsync(() -> "A")
+				.thenApplyAsync(s -> s + "X")
+				.thenApply(s -> s + "Z");
+
+				System.out.println(f.get());
+    }
     
 }

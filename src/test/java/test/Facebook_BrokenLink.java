@@ -18,12 +18,13 @@ public class Facebook_BrokenLink extends BaseTest{
 		// For Below code , Use selenium version 4 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
 		String xpath="//span[contains(text(),'Forgotten password')]/ancestor::div[1]";
-		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(520));
+		CommonFun.Clickbutton(driver, xpath);
+		driver.navigate().back();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(620));
 		driver.get(prop.getProperty("fburl"));
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));	
-		xpath="//span[contains(text(),'Create new account')]";
-		driver.findElement(By.xpath(xpath)).click();		
+		xpath=prop.getProperty("newaccount");
+		CommonFun.Clickbutton(driver, xpath);
+	
 	}
 	
 	@Test
@@ -50,7 +51,7 @@ public class Facebook_BrokenLink extends BaseTest{
 		classpath1=classpath1+ " , "+ webobj.get(i).getText();
 		
 	}
-	Reporter.log(classpath1);
+	  Reporter.log(classpath1);
 	System.out.println("-----Done-----");		 
 	}
 		

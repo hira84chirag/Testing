@@ -1,17 +1,9 @@
 package test;
 
 import java.time.Duration;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
-
-import Utilities.CommonFun;
-
-import org.openqa.selenium.WebElement;
-
-
 public class LocatorsExample extends BaseTest{
 	
 @Test
@@ -28,11 +20,8 @@ public class LocatorsExample extends BaseTest{
         
         driver.navigate().refresh();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(400));
-        
-        if (str==true) Reporter.log("Element found");
-        else Reporter.log("Element not found");
 
-}
+	}
 		
 }
 
