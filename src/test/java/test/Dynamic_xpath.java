@@ -12,7 +12,7 @@ public class Dynamic_xpath extends BaseTest{
 
 	@Test()
 	public void Menul_Links() throws Exception  {
-			driver.get(prop.getProperty("url"));
+			driver.get(prop.getProperty("flipurl"));
 			driver.manage().window().maximize();	
 	try {
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(500));

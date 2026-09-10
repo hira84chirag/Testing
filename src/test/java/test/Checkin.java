@@ -1,16 +1,12 @@
 package test;
-
 import java.io.IOException;
 import java.time.Duration;
-import java.util.concurrent.TimeoutException;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.Test;
 //import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Checkin extends BaseTest{
@@ -28,7 +24,7 @@ public class Checkin extends BaseTest{
         }
         System.out.println(webElement.getTagName());
         System.out.println("End");
-       // driver.close();
+        //driver.close();
     }
 
     public static WebElement getWebElement(WebDriver driver, String id) {

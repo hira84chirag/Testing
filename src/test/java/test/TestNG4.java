@@ -28,7 +28,7 @@ public class TestNG4 {
 	
 	@Test()
 	public void f() {
-		System.out.println("This Hello F test method");
+		System.out.println("This Hello F Known Excetion test method");
 		throw new SkipException("skipping F test method");
 	}
 

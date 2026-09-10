@@ -144,7 +144,11 @@ public class CommonFun {
 		  // Adjust speed }
 		  
 		  }
-
+	public static void scrollup(WebDriver driver) {
+	// Scroll up first
+			JavascriptExecutor js = (JavascriptExecutor) driver;    
+			js.executeScript("window.scrollBy(0,-400)");
+	}
 	public static void scrollpage(WebDriver driver, String xpath) throws Exception {
 		// Scroll by Pixels
 		JavascriptExecutor js = (JavascriptExecutor) driver;

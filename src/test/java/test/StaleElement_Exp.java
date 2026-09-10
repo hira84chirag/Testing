@@ -12,6 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
+import Utilities.CommonFun;
  
 public class StaleElement_Exp extends BaseTest {
 
@@ -19,7 +21,8 @@ public class StaleElement_Exp extends BaseTest {
     public void handleStaleElement() {
         //WebDriver driver = new ChromeDriver();
         try {
-            driver.get("https://www.google.fr/");
+        	
+            driver.get(prop.getProperty("googlefr"));
             driver.manage().window().maximize();
 
             // Wait for the search box to be present

@@ -8,16 +8,16 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 import Utilities.CommonFun;
 
-public class Facebook_BrokenLink extends BaseTest{
+public class Facebook_BrokenLink extends  BaseTest{
 	
 	@Test
 	public void FbService() throws Exception {
+		
 		driver.get(prop.getProperty("fburl"));
-
 		driver.manage().window().maximize();
 		// For Below code , Use selenium version 4 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(120));
-		String xpath="//span[contains(text(),'Forgotten password')]/ancestor::div[1]";
+		String xpath=prop.getProperty("forgotpass");
 		CommonFun.Clickbutton(driver, xpath);
 		driver.navigate().back();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(620));
@@ -38,20 +38,20 @@ public class Facebook_BrokenLink extends BaseTest{
 	Reporter.log(driver.getTitle()); // Create object from object Repository
 	
 	Thread.sleep(200);
-	String classpath="//div[@class='_4-u2 _80gx _4-u8']//a";
+	String classpath=prop.getProperty("fbdirpath");
 	CommonFun.CountLinks(driver,classpath);
 	Reporter.log("-----softare Testing-----");	
-	String classpath1="//div[@class='_80gt _2ph_']";
+	classpath=prop.getProperty("fbdirpath1");
 	
-	List<WebElement>  webobj=driver.findElements(By.xpath(classpath1));
+	List<WebElement>  webobj=driver.findElements(By.xpath(classpath));
 	System.out.println("Total country="+webobj.size());
 	
 	//CommonFun.BrokenLinks(driver,classpath1);
 	for(int i=0;i<webobj.size();i++){
-		classpath1=classpath1+ " , "+ webobj.get(i).getText();
+		classpath=classpath+ " , "+ webobj.get(i).getText();
 		
 	}
-	  Reporter.log(classpath1);
+	  Reporter.log(classpath);
 	System.out.println("-----Done-----");		 
 	}
 		

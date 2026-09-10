@@ -13,15 +13,13 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class JobTest extends BaseTest {
 	
-	
-	
 	@Test()
 	public void check() throws Exception {
-	
+		driver.close();
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-
+		driver.get("https://www.youtube.com/@Cinematic_dhaval");
         
 		
 		String s1 = new String("hello");
@@ -30,10 +28,8 @@ public class JobTest extends BaseTest {
 
 		System.out.println(s1 == s2);
 		System.out.println(s2 == s3);
-		
-		driver.get("http://www.paytm.com");
-		
-	
+				
+		//driver.quit();
 	}
 	
 	@Test

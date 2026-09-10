@@ -19,7 +19,7 @@ import java.time.Duration;
 import java.util.List;
 
 public class AccessibilityTest extends BaseTest {
-	@Ignore
+	
 	@Test
     public  void AccessibilityCheck() throws FileNotFoundException {
 		SoftAssert soft=new SoftAssert();

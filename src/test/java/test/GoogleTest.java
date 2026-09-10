@@ -1,8 +1,6 @@
 package test;
 
-import java.awt.AWTException;
-import java.security.Key;
-import Utilities.CommonFun;
+
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

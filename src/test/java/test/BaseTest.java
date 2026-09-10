@@ -6,7 +6,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Ignore;
+
 import com.investis.testing.Base;
 
 public class BaseTest extends Base{
@@ -20,9 +20,7 @@ public class BaseTest extends Base{
 		loadPropertiesFile();	
 		//browser=prop.getProperty("browser");
 		driver=intilizeBrowserAndOpenApplication(browser);	
-
 	}
-	
 	
 	public void navigatetourl(String url) {
 		driver.get(url);
@@ -40,7 +38,7 @@ public class BaseTest extends Base{
 	        }
 	        
 	  }
-	@Ignore
+	
 	@AfterSuite
 	static void afterTest() {
 	    System.out.println("All tests finished");
@@ -52,7 +50,7 @@ public class BaseTest extends Base{
         driver.navigate().to("file:///C:/Users/Dell%20Enterprise/eclipse-workspace/Testing/extent-report/MyTestReport.html#");
         driver.switchTo().newWindow(WindowType.TAB);
         driver.navigate().to("file:///C:/Users/Dell%20Enterprise/eclipse-workspace/Testing/test-output/emailable-report.html");
- 	
+        driver.quit();
 	}
 	
 }

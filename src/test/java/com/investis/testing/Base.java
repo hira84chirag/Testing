@@ -42,8 +42,11 @@ public class Base {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-dev-shm-usage");
 			options.addArguments("--disable-extensions");
+			options.addArguments("--disable-blink-features=AutomationControlled");
+			options.setExperimentalOption("useAutomationExtension", false);			
 	        options.addArguments("--incognito");
 			driver = new ChromeDriver(options);
+
 			
 			}
 		else if(browser.equalsIgnoreCase("firefox"))
